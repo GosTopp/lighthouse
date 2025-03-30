@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "game": "Assassin's Creed Shadows",
+    "platform": "Steam",
+    "status": "Under Watch",
+    "total_buzz": 16433,
+    "sentiment_score": 68,
+    "emerging_issues": 1,
+    "top_tags": [
+      "#LoadingTime",
+      "#CharacterDepth",
+      "#BugReport"
+    ],
+    "review": "Players praise Japan setting and dual protagonist system, but report frequent loading screens and some graphical glitches in dense city areas."
+  },
+  {
+    "id": 2,
+    "game": "Rainbow Six Siege",
+    "platform": "Steam",
+    "status": "Stable",
+    "total_buzz": 7013,
+    "sentiment_score": 66,
+    "emerging_issues": 3,
+    "top_tags": [
+      "#LoadingTime",
+      "#CharacterDepth",
+      "#BugReport"
+    ],
+    "review": "Veteran players appreciate recent balance updates, while new players report steep learning curve. Matchmaking issues after latest patch being investigated."
+  },
+  {
+    "id": 3,
+    "game": "Assassin's Creed Valhalla",
+    "platform": "Steam",
+    "status": "Under Watch",
+    "total_buzz": 7296,
+    "sentiment_score": 73,
+    "emerging_issues": 1,
+    "top_tags": [
+      "#LoadingTime",
+      "#CharacterDepth",
+      "#BugReport"
+    ],
+    "review": "Player engagement remains strong post-final DLC. Community requesting more Norse mythology content and expressing excitement for Shadows release."
+  },
+  {
+    "id": 4,
+    "game": "XDefiant",
+    "platform": "Steam",
+    "status": "Stable",
+    "total_buzz": 4619,
+    "sentiment_score": 57,
+    "emerging_issues": 1,
+    "top_tags": [
+      "#LoadingTime",
+      "#CharacterDepth",
+      "#BugReport"
+    ],
+    "review": "Mixed reception with praise for gunplay mechanics but criticism for generic map design. Players requesting more faction diversity and server stability improvements."
+  },
+  {
+    "id": 5,
+    "game": "The Division 2",
+    "platform": "Steam",
+    "status": "Stable",
+    "total_buzz": 9440,
+    "sentiment_score": 75,
+    "emerging_issues": 3,
+    "top_tags": [
+      "#LoadingTime",
+      "#CharacterDepth",
+      "#BugReport"
+    ],
+    "review": "Recent Season 2 content update highly praised for new missions and gear sets. Endgame players requesting more raid content and PvP balancing adjustments."
+  },
+  {
+    "id": 6,
+    "game": "Just Dance 2024",
+    "platform": "Steam",
+    "status": "Stable",
+    "total_buzz": 5527,
+    "sentiment_score": 57,
+    "emerging_issues": 2,
+    "top_tags": [
+      "#LoadingTime",
+      "#CharacterDepth",
+      "#BugReport"
+    ],
+    "review": "Song selection receives mixed feedback with top charts appreciated but more variety requested. Mobile connection issues reported on some devices. Family mode highly rated."
+  },
+  {
+    "id": 7,
+    "game": "Watch Dogs: Legion",
+    "platform": "Steam",
+    "status": "Stable",
+    "total_buzz": 4306,
+    "sentiment_score": 68,
+    "emerging_issues": 0,
+    "top_tags": [
+      "#LoadingTime",
+      "#CharacterDepth",
+      "#BugReport"
+    ],
+    "review": "Play-as-anyone system remains popular feature. London setting highly praised for detail. Recent discount drove new player acquisition with positive reception from newcomers."
+  },
+  {
+    "id": 8,
+    "game": "Far Cry 6",
+    "platform": "Steam",
+    "status": "Stable",
+    "total_buzz": 5060,
+    "sentiment_score": 48,
+    "emerging_issues": 2,
+    "top_tags": [
+      "#LoadingTime",
+      "#CharacterDepth",
+      "#BugReport"
+    ],
+    "review": "Story and villain performance widely praised, but players report repetitive mission structure and technical issues on older hardware. Community requesting more varied endgame content."
+  },
+  {
+    "id": 9,
+    "game": "Skull and Bones",
+    "platform": "Steam",
+    "status": "Stable",
+    "total_buzz": 16030,
+    "sentiment_score": 54,
+    "emerging_issues": 3,
+    "top_tags": [
+      "#LoadingTime",
+      "#CharacterDepth",
+      "#BugReport"
+    ],
+    "review": "Naval combat and visual aesthetics receive praise, but criticism focused on content variety and progression pacing. Recent updates showing improvement in player retention metrics."
+  },
+  {
+    "id": 10,
+    "game": "The Crew Motorfest",
+    "platform": "Steam",
+    "status": "Stable",
+    "total_buzz": 4540,
+    "sentiment_score": 54,
+    "emerging_issues": 2,
+    "top_tags": [
+      "#LoadingTime",
+      "#CharacterDepth",
+      "#BugReport"
+    ],
+    "review": "Hawaii open world highly rated for visual fidelity. Vehicle handling improvements appreciated over predecessors. Players requesting more customization options and event variety."
+  }
+]

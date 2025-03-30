@@ -1,0 +1,16 @@
+---
+description: fontend-guide
+globs: 
+alwaysApply: true
+---
+
+# 前端开发原则
+## 项目背景
+- 项目名称： Lighthouse
+- 项目介绍：面向企业内部 Insight 与品牌策略团队的社交聆听（Social Listening）平台，聚焦于从多平台社交内容中提取结构化信息，结合大语言模型能力进行标签归纳、趋势分析与洞察生成，辅助品牌管理者及时把握社群动态与声量变化。
+- 行业背景：本项目服务于游戏行业头部品牌 Ubisoft，围绕其核心 IP（如《刺客信条》《彩虹六号》等）在社交平台（小红书、Steam 等）的内容传播表现展开分析。
+
+- 默认使用 shadcn/ui 设计风格，参考官方文档 https://ui.shadcn.com/docs
+- 所有页面卡片组件统一圆角、留白、阴影风格
+- 整体风格参考 Linear / Notion / shadcn/ui（New York）风格，保持极简、专业、现代感留白与圆角设计
+- Icons 参考 https://lucide.dev/icons/

@@ -8,9 +8,9 @@ import {
   SidebarProvider,
 } from "@/components/ui/sidebar"
 
-import data from "./dashboard/data.json"
+import data from "./data.json"
 
-export default function Home() {
+export default function Page() {
   return (
     <SidebarProvider
       style={
@@ -22,7 +22,7 @@ export default function Home() {
     >
       <AppSidebar variant="inset" />
       <SidebarInset>
-        <SiteHeader title="Home" />
+        <SiteHeader title="Dashboard" />
         <div className="flex flex-1 flex-col">
           <div className="@container/main flex flex-1 flex-col gap-2">
             <div className="flex flex-col gap-4 py-4 md:gap-6 md:py-6">

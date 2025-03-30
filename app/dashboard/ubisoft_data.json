@@ -1,0 +1,672 @@
+[
+  {
+    "ip": "Assassin’s Creed Shadows",
+    "platform": "Steam",
+    "total_buzz": 16433,
+    "sentiment_score": 68,
+    "emerging_issues": 1,
+    "topics": [
+      "#Assassin’s",
+      "#Gameplay",
+      "#LaunchHype"
+    ],
+    "tag_details": {
+      "ux": [
+        {
+          "tag": "#LoadingTime",
+          "volume": 210,
+          "sample_comment": "Load times could be improved."
+        },
+        {
+          "tag": "#LoadingTime",
+          "volume": 220,
+          "sample_comment": "Load times could be improved."
+        },
+        {
+          "tag": "#LoadingTime",
+          "volume": 230,
+          "sample_comment": "Load times could be improved."
+        }
+      ],
+      "story": [
+        {
+          "tag": "#CharacterDepth",
+          "volume": 300,
+          "sample_comment": "Main characters feel well-written."
+        },
+        {
+          "tag": "#CharacterDepth",
+          "volume": 285,
+          "sample_comment": "Main characters feel well-written."
+        },
+        {
+          "tag": "#CharacterDepth",
+          "volume": 270,
+          "sample_comment": "Main characters feel well-written."
+        }
+      ],
+      "risk": [
+        {
+          "tag": "#BugReport",
+          "volume": 100,
+          "sample_comment": "Some players experienced crashes."
+        },
+        {
+          "tag": "#BugReport",
+          "volume": 120,
+          "sample_comment": "Some players experienced crashes."
+        },
+        {
+          "tag": "#BugReport",
+          "volume": 140,
+          "sample_comment": "Some players experienced crashes."
+        }
+      ]
+    },
+    "review": "Strong player engagement with some concerns.",
+    "status": "✅ Stable"
+  },
+  {
+    "ip": "Rainbow Six Siege",
+    "platform": "Steam",
+    "total_buzz": 7013,
+    "sentiment_score": 66,
+    "emerging_issues": 3,
+    "topics": [
+      "#Rainbow",
+      "#Gameplay",
+      "#LaunchHype"
+    ],
+    "tag_details": {
+      "ux": [
+        {
+          "tag": "#LoadingTime",
+          "volume": 210,
+          "sample_comment": "Load times could be improved."
+        },
+        {
+          "tag": "#LoadingTime",
+          "volume": 220,
+          "sample_comment": "Load times could be improved."
+        },
+        {
+          "tag": "#LoadingTime",
+          "volume": 230,
+          "sample_comment": "Load times could be improved."
+        }
+      ],
+      "story": [
+        {
+          "tag": "#CharacterDepth",
+          "volume": 300,
+          "sample_comment": "Main characters feel well-written."
+        },
+        {
+          "tag": "#CharacterDepth",
+          "volume": 285,
+          "sample_comment": "Main characters feel well-written."
+        },
+        {
+          "tag": "#CharacterDepth",
+          "volume": 270,
+          "sample_comment": "Main characters feel well-written."
+        }
+      ],
+      "risk": [
+        {
+          "tag": "#BugReport",
+          "volume": 100,
+          "sample_comment": "Some players experienced crashes."
+        },
+        {
+          "tag": "#BugReport",
+          "volume": 120,
+          "sample_comment": "Some players experienced crashes."
+        },
+        {
+          "tag": "#BugReport",
+          "volume": 140,
+          "sample_comment": "Some players experienced crashes."
+        }
+      ]
+    },
+    "review": "Strong player engagement with some concerns.",
+    "status": "✅ Stable"
+  },
+  {
+    "ip": "Assassin’s Creed Valhalla",
+    "platform": "Steam",
+    "total_buzz": 7296,
+    "sentiment_score": 73,
+    "emerging_issues": 1,
+    "topics": [
+      "#Assassin’s",
+      "#Gameplay",
+      "#LaunchHype"
+    ],
+    "tag_details": {
+      "ux": [
+        {
+          "tag": "#LoadingTime",
+          "volume": 210,
+          "sample_comment": "Load times could be improved."
+        },
+        {
+          "tag": "#LoadingTime",
+          "volume": 220,
+          "sample_comment": "Load times could be improved."
+        },
+        {
+          "tag": "#LoadingTime",
+          "volume": 230,
+          "sample_comment": "Load times could be improved."
+        }
+      ],
+      "story": [
+        {
+          "tag": "#CharacterDepth",
+          "volume": 300,
+          "sample_comment": "Main characters feel well-written."
+        },
+        {
+          "tag": "#CharacterDepth",
+          "volume": 285,
+          "sample_comment": "Main characters feel well-written."
+        },
+        {
+          "tag": "#CharacterDepth",
+          "volume": 270,
+          "sample_comment": "Main characters feel well-written."
+        }
+      ],
+      "risk": [
+        {
+          "tag": "#BugReport",
+          "volume": 100,
+          "sample_comment": "Some players experienced crashes."
+        },
+        {
+          "tag": "#BugReport",
+          "volume": 120,
+          "sample_comment": "Some players experienced crashes."
+        },
+        {
+          "tag": "#BugReport",
+          "volume": 140,
+          "sample_comment": "Some players experienced crashes."
+        }
+      ]
+    },
+    "review": "Strong player engagement with some concerns.",
+    "status": "🔎 Under Watch"
+  },
+  {
+    "ip": "XDefiant",
+    "platform": "Steam",
+    "total_buzz": 4619,
+    "sentiment_score": 57,
+    "emerging_issues": 1,
+    "topics": [
+      "#XDefiant",
+      "#Gameplay",
+      "#LaunchHype"
+    ],
+    "tag_details": {
+      "ux": [
+        {
+          "tag": "#LoadingTime",
+          "volume": 210,
+          "sample_comment": "Load times could be improved."
+        },
+        {
+          "tag": "#LoadingTime",
+          "volume": 220,
+          "sample_comment": "Load times could be improved."
+        },
+        {
+          "tag": "#LoadingTime",
+          "volume": 230,
+          "sample_comment": "Load times could be improved."
+        }
+      ],
+      "story": [
+        {
+          "tag": "#CharacterDepth",
+          "volume": 300,
+          "sample_comment": "Main characters feel well-written."
+        },
+        {
+          "tag": "#CharacterDepth",
+          "volume": 285,
+          "sample_comment": "Main characters feel well-written."
+        },
+        {
+          "tag": "#CharacterDepth",
+          "volume": 270,
+          "sample_comment": "Main characters feel well-written."
+        }
+      ],
+      "risk": [
+        {
+          "tag": "#BugReport",
+          "volume": 100,
+          "sample_comment": "Some players experienced crashes."
+        },
+        {
+          "tag": "#BugReport",
+          "volume": 120,
+          "sample_comment": "Some players experienced crashes."
+        },
+        {
+          "tag": "#BugReport",
+          "volume": 140,
+          "sample_comment": "Some players experienced crashes."
+        }
+      ]
+    },
+    "review": "Strong player engagement with some concerns.",
+    "status": "✅ Stable"
+  },
+  {
+    "ip": "The Division 2",
+    "platform": "Steam",
+    "total_buzz": 9440,
+    "sentiment_score": 75,
+    "emerging_issues": 3,
+    "topics": [
+      "#The",
+      "#Gameplay",
+      "#LaunchHype"
+    ],
+    "tag_details": {
+      "ux": [
+        {
+          "tag": "#LoadingTime",
+          "volume": 210,
+          "sample_comment": "Load times could be improved."
+        },
+        {
+          "tag": "#LoadingTime",
+          "volume": 220,
+          "sample_comment": "Load times could be improved."
+        },
+        {
+          "tag": "#LoadingTime",
+          "volume": 230,
+          "sample_comment": "Load times could be improved."
+        }
+      ],
+      "story": [
+        {
+          "tag": "#CharacterDepth",
+          "volume": 300,
+          "sample_comment": "Main characters feel well-written."
+        },
+        {
+          "tag": "#CharacterDepth",
+          "volume": 285,
+          "sample_comment": "Main characters feel well-written."
+        },
+        {
+          "tag": "#CharacterDepth",
+          "volume": 270,
+          "sample_comment": "Main characters feel well-written."
+        }
+      ],
+      "risk": [
+        {
+          "tag": "#BugReport",
+          "volume": 100,
+          "sample_comment": "Some players experienced crashes."
+        },
+        {
+          "tag": "#BugReport",
+          "volume": 120,
+          "sample_comment": "Some players experienced crashes."
+        },
+        {
+          "tag": "#BugReport",
+          "volume": 140,
+          "sample_comment": "Some players experienced crashes."
+        }
+      ]
+    },
+    "review": "Strong player engagement with some concerns.",
+    "status": "✅ Stable"
+  },
+  {
+    "ip": "Just Dance 2024",
+    "platform": "Steam",
+    "total_buzz": 5527,
+    "sentiment_score": 57,
+    "emerging_issues": 2,
+    "topics": [
+      "#Just",
+      "#Gameplay",
+      "#LaunchHype"
+    ],
+    "tag_details": {
+      "ux": [
+        {
+          "tag": "#LoadingTime",
+          "volume": 210,
+          "sample_comment": "Load times could be improved."
+        },
+        {
+          "tag": "#LoadingTime",
+          "volume": 220,
+          "sample_comment": "Load times could be improved."
+        },
+        {
+          "tag": "#LoadingTime",
+          "volume": 230,
+          "sample_comment": "Load times could be improved."
+        }
+      ],
+      "story": [
+        {
+          "tag": "#CharacterDepth",
+          "volume": 300,
+          "sample_comment": "Main characters feel well-written."
+        },
+        {
+          "tag": "#CharacterDepth",
+          "volume": 285,
+          "sample_comment": "Main characters feel well-written."
+        },
+        {
+          "tag": "#CharacterDepth",
+          "volume": 270,
+          "sample_comment": "Main characters feel well-written."
+        }
+      ],
+      "risk": [
+        {
+          "tag": "#BugReport",
+          "volume": 100,
+          "sample_comment": "Some players experienced crashes."
+        },
+        {
+          "tag": "#BugReport",
+          "volume": 120,
+          "sample_comment": "Some players experienced crashes."
+        },
+        {
+          "tag": "#BugReport",
+          "volume": 140,
+          "sample_comment": "Some players experienced crashes."
+        }
+      ]
+    },
+    "review": "Strong player engagement with some concerns.",
+    "status": "✅ Stable"
+  },
+  {
+    "ip": "Watch Dogs: Legion",
+    "platform": "Steam",
+    "total_buzz": 4306,
+    "sentiment_score": 68,
+    "emerging_issues": 0,
+    "topics": [
+      "#Watch",
+      "#Gameplay",
+      "#LaunchHype"
+    ],
+    "tag_details": {
+      "ux": [
+        {
+          "tag": "#LoadingTime",
+          "volume": 210,
+          "sample_comment": "Load times could be improved."
+        },
+        {
+          "tag": "#LoadingTime",
+          "volume": 220,
+          "sample_comment": "Load times could be improved."
+        },
+        {
+          "tag": "#LoadingTime",
+          "volume": 230,
+          "sample_comment": "Load times could be improved."
+        }
+      ],
+      "story": [
+        {
+          "tag": "#CharacterDepth",
+          "volume": 300,
+          "sample_comment": "Main characters feel well-written."
+        },
+        {
+          "tag": "#CharacterDepth",
+          "volume": 285,
+          "sample_comment": "Main characters feel well-written."
+        },
+        {
+          "tag": "#CharacterDepth",
+          "volume": 270,
+          "sample_comment": "Main characters feel well-written."
+        }
+      ],
+      "risk": [
+        {
+          "tag": "#BugReport",
+          "volume": 100,
+          "sample_comment": "Some players experienced crashes."
+        },
+        {
+          "tag": "#BugReport",
+          "volume": 120,
+          "sample_comment": "Some players experienced crashes."
+        },
+        {
+          "tag": "#BugReport",
+          "volume": 140,
+          "sample_comment": "Some players experienced crashes."
+        }
+      ]
+    },
+    "review": "Strong player engagement with some concerns.",
+    "status": "✅ Stable"
+  },
+  {
+    "ip": "Far Cry 6",
+    "platform": "Steam",
+    "total_buzz": 5060,
+    "sentiment_score": 48,
+    "emerging_issues": 2,
+    "topics": [
+      "#Far",
+      "#Gameplay",
+      "#LaunchHype"
+    ],
+    "tag_details": {
+      "ux": [
+        {
+          "tag": "#LoadingTime",
+          "volume": 210,
+          "sample_comment": "Load times could be improved."
+        },
+        {
+          "tag": "#LoadingTime",
+          "volume": 220,
+          "sample_comment": "Load times could be improved."
+        },
+        {
+          "tag": "#LoadingTime",
+          "volume": 230,
+          "sample_comment": "Load times could be improved."
+        }
+      ],
+      "story": [
+        {
+          "tag": "#CharacterDepth",
+          "volume": 300,
+          "sample_comment": "Main characters feel well-written."
+        },
+        {
+          "tag": "#CharacterDepth",
+          "volume": 285,
+          "sample_comment": "Main characters feel well-written."
+        },
+        {
+          "tag": "#CharacterDepth",
+          "volume": 270,
+          "sample_comment": "Main characters feel well-written."
+        }
+      ],
+      "risk": [
+        {
+          "tag": "#BugReport",
+          "volume": 100,
+          "sample_comment": "Some players experienced crashes."
+        },
+        {
+          "tag": "#BugReport",
+          "volume": 120,
+          "sample_comment": "Some players experienced crashes."
+        },
+        {
+          "tag": "#BugReport",
+          "volume": 140,
+          "sample_comment": "Some players experienced crashes."
+        }
+      ]
+    },
+    "review": "Strong player engagement with some concerns.",
+    "status": "✅ Stable"
+  },
+  {
+    "ip": "Skull and Bones",
+    "platform": "Steam",
+    "total_buzz": 16030,
+    "sentiment_score": 54,
+    "emerging_issues": 3,
+    "topics": [
+      "#Skull",
+      "#Gameplay",
+      "#LaunchHype"
+    ],
+    "tag_details": {
+      "ux": [
+        {
+          "tag": "#LoadingTime",
+          "volume": 210,
+          "sample_comment": "Load times could be improved."
+        },
+        {
+          "tag": "#LoadingTime",
+          "volume": 220,
+          "sample_comment": "Load times could be improved."
+        },
+        {
+          "tag": "#LoadingTime",
+          "volume": 230,
+          "sample_comment": "Load times could be improved."
+        }
+      ],
+      "story": [
+        {
+          "tag": "#CharacterDepth",
+          "volume": 300,
+          "sample_comment": "Main characters feel well-written."
+        },
+        {
+          "tag": "#CharacterDepth",
+          "volume": 285,
+          "sample_comment": "Main characters feel well-written."
+        },
+        {
+          "tag": "#CharacterDepth",
+          "volume": 270,
+          "sample_comment": "Main characters feel well-written."
+        }
+      ],
+      "risk": [
+        {
+          "tag": "#BugReport",
+          "volume": 100,
+          "sample_comment": "Some players experienced crashes."
+        },
+        {
+          "tag": "#BugReport",
+          "volume": 120,
+          "sample_comment": "Some players experienced crashes."
+        },
+        {
+          "tag": "#BugReport",
+          "volume": 140,
+          "sample_comment": "Some players experienced crashes."
+        }
+      ]
+    },
+    "review": "Strong player engagement with some concerns.",
+    "status": "✅ Stable"
+  },
+  {
+    "ip": "The Crew Motorfest",
+    "platform": "Steam",
+    "total_buzz": 4540,
+    "sentiment_score": 54,
+    "emerging_issues": 2,
+    "topics": [
+      "#The",
+      "#Gameplay",
+      "#LaunchHype"
+    ],
+    "tag_details": {
+      "ux": [
+        {
+          "tag": "#LoadingTime",
+          "volume": 210,
+          "sample_comment": "Load times could be improved."
+        },
+        {
+          "tag": "#LoadingTime",
+          "volume": 220,
+          "sample_comment": "Load times could be improved."
+        },
+        {
+          "tag": "#LoadingTime",
+          "volume": 230,
+          "sample_comment": "Load times could be improved."
+        }
+      ],
+      "story": [
+        {
+          "tag": "#CharacterDepth",
+          "volume": 300,
+          "sample_comment": "Main characters feel well-written."
+        },
+        {
+          "tag": "#CharacterDepth",
+          "volume": 285,
+          "sample_comment": "Main characters feel well-written."
+        },
+        {
+          "tag": "#CharacterDepth",
+          "volume": 270,
+          "sample_comment": "Main characters feel well-written."
+        }
+      ],
+      "risk": [
+        {
+          "tag": "#BugReport",
+          "volume": 100,
+          "sample_comment": "Some players experienced crashes."
+        },
+        {
+          "tag": "#BugReport",
+          "volume": 120,
+          "sample_comment": "Some players experienced crashes."
+        },
+        {
+          "tag": "#BugReport",
+          "volume": 140,
+          "sample_comment": "Some players experienced crashes."
+        }
+      ]
+    },
+    "review": "Strong player engagement with some concerns.",
+    "status": "✅ Stable"
+  }
+]

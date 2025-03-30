@@ -1,0 +1,31 @@
+[
+    {
+      "id": 1,
+      "game": "Assassin's Creed Shadows",
+      "tag_details": {
+        "ux": [
+            {
+            "tag": "#LoadingTime",
+            "volume": 210,
+            "sample_comment": "Load times could be improved."
+            }
+        ],
+        "story": [
+            {
+            "tag": "#CharacterDepth",
+            "volume": 300,
+            "sample_comment": "Main characters feel well-written."
+            }
+            
+        ],
+        "risk": [
+            {
+            "tag": "#BugReport",
+            "volume": 100,
+            "sample_comment": "Some players experienced crashes."
+            }
+        ]
+        }
+    }
+]
+  
