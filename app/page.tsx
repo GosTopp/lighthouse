@@ -1,3 +1,8 @@
+'use client'
+
+import { useEffect } from 'react'
+import { useRouter } from 'next/navigation'
+
 import { AppSidebar } from "@/components/app-sidebar"
 import { ChartAreaInteractive } from "@/components/chart-area-interactive"
 import { DataTable } from "@/components/data-table"
@@ -11,6 +16,16 @@ import {
 import data from "./dashboard/data.json"
 
 export default function Home() {
+  const router = useRouter()
+
+  // 简单的身份验证检查，在实际应用中应从 cookie/localStorage/服务器会话获取
+  useEffect(() => {
+    const isLoggedIn = localStorage.getItem('isLoggedIn') === 'true'
+    if (!isLoggedIn) {
+      router.push('/login')
+    }
+  }, [router])
+
   return (
     <SidebarProvider
       style={

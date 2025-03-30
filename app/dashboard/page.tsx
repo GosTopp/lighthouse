@@ -1,3 +1,8 @@
+'use client'
+
+import { useEffect } from 'react'
+import { useRouter } from 'next/navigation'
+
 import { AppSidebar } from "@/components/app-sidebar"
 import { ChartAreaInteractive } from "@/components/chart-area-interactive"
 import { DataTable } from "@/components/data-table"
@@ -13,6 +18,16 @@ import tagsData from "./tags.json"
 import { type TagData } from "@/components/data-table"
 
 export default function Page() {
+  const router = useRouter()
+
+  // 检查用户是否已登录
+  useEffect(() => {
+    const isLoggedIn = localStorage.getItem('isLoggedIn') === 'true'
+    if (!isLoggedIn) {
+      router.push('/login')
+    }
+  }, [router])
+
   return (
     <SidebarProvider
       style={
