@@ -1,5 +1,67 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+# 社交聆听平台 (Social Listening Platform)
+
+## 标签层级结构 (Tagging Hierarchy)
+
+本项目实现了一个三层标签结构来组织用户评论数据：
+
+1. **主题 (Theme)**: 反馈的高级分类
+   - 例如：ux, story, risk
+
+2. **标签 (Tag)**: 每个主题下的具体话题或问题
+   - 例如：#MatchmakingTime, #OperatorBackground, #QuestBugs
+
+3. **指标 (Metrics)**: 描述标签情感和分析属性的结构化数据
+   - 情感得分 (sentiment_score): 0.42
+   - 情感标签 (sentiment_label): "Mixed"
+   - 关键词 (keywords): ["slow matchmaking", "wait time"]
+   - 参与率 (engagement_rate): 0.13 (可选)
+
+### 数据处理
+
+我们使用 Python 脚本 `scripts/process_comments.py` 将原始评论数据重构为符合标签层级的结构。
+
+#### 原始数据结构:
+```json
+"tag_details": {
+  "ux": [
+    {
+      "tag_name": "#HitRegistration",
+      "sentiment_score": 0.4,
+      "sentiment_label": "Mixed",
+      "keywords": ["命中注册", "不准确", "偶尔"]
+    }
+  ]
+}
+```
+
+#### 重构后的数据结构:
+```json
+"tag_details": [
+  {
+    "theme": "ux",
+    "tags": [
+      {
+        "name": "#HitRegistration", 
+        "metrics": {
+          "sentiment_score": 0.4,
+          "sentiment_label": "Mixed",
+          "keywords": ["命中注册", "不准确", "偶尔"]
+        }
+      }
+    ]
+  }
+]
+```
+
+要处理数据，请运行:
+```bash
+python scripts/process_comments.py
+```
+
+处理后的数据将保存到 `public/comments_restructured.json`。
+
 ## Getting Started
 
 First, run the development server:

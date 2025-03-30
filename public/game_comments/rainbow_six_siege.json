@@ -1,0 +1,472 @@
+[
+  {
+    "user": "战术指挥官",
+    "avatar": "https://randomuser.me/api/portraits/men/18.jpg",
+    "game": "Tom Clancy's Rainbow Six Siege",
+    "platform": "Steam",
+    "publish_at": "2025-01-22",
+    "rating": 3,
+    "content": "《彩虹六号：围攻》在战术射击游戏领域依然是独一无二的存在，但游戏本身问题越来越明显。匹配时间太长，有时候要等3-5分钟才能进入一场比赛，这严重影响了游戏体验。命中判定也有问题，明明瞄准敌人头部并开枪，却不造成伤害，让人非常沮丧。虽然如此，我仍然欣赏游戏中各干员的背景故事设计，每个角色都有独特的个性和技能，增加了游戏的深度。希望育碧能重视这些核心游戏问题，否则再优秀的内容也无法留住玩家。",
+    "tag_details": {
+      "ux": [
+        {
+          "tag_name": "#MatchmakingTime",
+          "sentiment_score": 0.2,
+          "sentiment_label": "Negative",
+          "keywords": ["匹配时间", "等待", "影响体验"]
+        },
+        {
+          "tag_name": "#HitRegistration",
+          "sentiment_score": 0.15,
+          "sentiment_label": "Negative",
+          "keywords": ["命中判定", "不造成伤害", "沮丧"]
+        }
+      ],
+      "story": [
+        {
+          "tag_name": "#OperatorBackground",
+          "sentiment_score": 0.8,
+          "sentiment_label": "Positive",
+          "keywords": ["干员背景", "独特个性", "技能"]
+        }
+      ]
+    }
+  },
+  {
+    "user": "潜伏大师",
+    "avatar": "https://randomuser.me/api/portraits/men/27.jpg",
+    "game": "Tom Clancy's Rainbow Six Siege",
+    "platform": "Steam",
+    "publish_at": "2025-02-13",
+    "rating": 1,
+    "content": "作弊玩家已经毁了这个游戏！近期几乎每场比赛都能遇到透视或自瞄挂，育碧的反作弊系统形同虚设。我已经玩这个游戏超过2000小时，从未见过如此严重的作弊问题。虽然游戏的战术性和干员设计仍然出色，但这些优点在严重的作弊问题面前黯然失色。团队已经知道这些问题很久了，却始终没有提供有效解决方案，反而不断推出新的付费内容。命中注册和服务器延迟问题也一直存在，有时候明显击中却不算伤害。除非他们认真解决这些根本问题，否则我不会推荐任何人玩这个游戏。",
+    "tag_details": {
+      "risk": [
+        {
+          "tag_name": "#Cheaters",
+          "sentiment_score": 0.05,
+          "sentiment_label": "Negative",
+          "keywords": ["作弊玩家", "透视", "自瞄挂"]
+        },
+        {
+          "tag_name": "#TechnicalDebt",
+          "sentiment_score": 0.15,
+          "sentiment_label": "Negative",
+          "keywords": ["问题", "解决方案", "付费内容"]
+        }
+      ],
+      "ux": [
+        {
+          "tag_name": "#HitRegistration",
+          "sentiment_score": 0.1,
+          "sentiment_label": "Negative",
+          "keywords": ["命中注册", "服务器延迟", "不算伤害"]
+        }
+      ]
+    }
+  },
+  {
+    "user": "突击队长",
+    "avatar": "https://randomuser.me/api/portraits/men/35.jpg",
+    "game": "Tom Clancy's Rainbow Six Siege",
+    "platform": "Steam",
+    "publish_at": "2025-03-08",
+    "rating": 4,
+    "content": "尽管有一些问题，《彩虹六号：围攻》仍然是我最爱的多人射击游戏。战术深度和团队配合的重要性在FPS游戏中无与伦比。每个干员的背景故事和独特能力设计得很出色，让游戏内容更加丰富。我特别喜欢游戏世界观通过各种事件和新干员不断扩展的方式，保持了长期的新鲜感。不过游戏确实存在一些问题，比如命中注册不准确，有时候明显击中却没有伤害反馈；还有一些游戏内菜单设计不够直观，需要多次点击才能找到想要的选项。希望开发者能解决这些问题，让这款出色的游戏变得更好。",
+    "tag_details": {
+      "story": [
+        {
+          "tag_name": "#OperatorBackground",
+          "sentiment_score": 0.85,
+          "sentiment_label": "Positive",
+          "keywords": ["干员背景", "独特能力", "出色"]
+        },
+        {
+          "tag_name": "#LoreExpansion",
+          "sentiment_score": 0.8,
+          "sentiment_label": "Positive",
+          "keywords": ["世界观", "事件", "新干员"]
+        }
+      ],
+      "ux": [
+        {
+          "tag_name": "#HitRegistration",
+          "sentiment_score": 0.25,
+          "sentiment_label": "Negative",
+          "keywords": ["命中注册", "不准确", "没有伤害反馈"]
+        },
+        {
+          "tag_name": "#MenuDesign",
+          "sentiment_score": 0.3,
+          "sentiment_label": "Negative",
+          "keywords": ["菜单设计", "不直观", "多次点击"]
+        }
+      ]
+    }
+  },
+  {
+    "user": "防守专家",
+    "avatar": "https://randomuser.me/api/portraits/women/29.jpg",
+    "game": "Tom Clancy's Rainbow Six Siege",
+    "platform": "Steam",
+    "publish_at": "2025-04-17",
+    "rating": 2,
+    "content": "《彩虹六号：围攻》曾经是我最爱的游戏，但现在几乎无法正常游玩。匹配机制彻底崩坏，高水平玩家被匹配到新手局，导致游戏体验极差；命中判定不准确，明明头部射击却不造成伤害；最严重的是作弊问题，高段位几乎每场比赛都有人使用透视或自瞄外挂。这些问题已经存在很久，开发团队却只专注于推出新付费内容，对核心gameplay问题置之不理。唯一值得称赞的是干员背景故事设计仍然很棒，每个角色都有深度，限时事件的叙事内容也很吸引人。但这些内容再好，在基础体验如此糟糕的情况下也无法挽回游戏。",
+    "tag_details": {
+      "ux": [
+        {
+          "tag_name": "#MatchmakingTime",
+          "sentiment_score": 0.1,
+          "sentiment_label": "Negative",
+          "keywords": ["匹配机制", "高水平玩家", "新手局"]
+        },
+        {
+          "tag_name": "#HitRegistration",
+          "sentiment_score": 0.15,
+          "sentiment_label": "Negative",
+          "keywords": ["命中判定", "头部射击", "不造成伤害"]
+        }
+      ],
+      "story": [
+        {
+          "tag_name": "#OperatorBackground",
+          "sentiment_score": 0.8,
+          "sentiment_label": "Positive",
+          "keywords": ["干员背景", "角色深度", "设计"]
+        },
+        {
+          "tag_name": "#EventNarratives",
+          "sentiment_score": 0.75,
+          "sentiment_label": "Positive",
+          "keywords": ["限时事件", "叙事内容", "吸引人"]
+        }
+      ],
+      "risk": [
+        {
+          "tag_name": "#Cheaters",
+          "sentiment_score": 0.05,
+          "sentiment_label": "Negative",
+          "keywords": ["作弊问题", "透视", "自瞄外挂"]
+        },
+        {
+          "tag_name": "#TechnicalDebt",
+          "sentiment_score": 0.1,
+          "sentiment_label": "Negative",
+          "keywords": ["核心问题", "新付费内容", "置之不理"]
+        }
+      ]
+    }
+  },
+  {
+    "user": "战术眼镜",
+    "avatar": "https://randomuser.me/api/portraits/men/43.jpg",
+    "game": "Tom Clancy's Rainbow Six Siege",
+    "platform": "Steam",
+    "publish_at": "2025-02-28",
+    "rating": 3,
+    "content": "这个游戏让我爱恨交加。一方面，它的战术深度和团队配合是其他射击游戏无法比拟的，干员设计和能力搭配有无数可能性，每次比赛都有新的体验。另一方面，游戏中的技术问题令人沮丧：匹配时间越来越长，有时要等待5分钟以上；命中注册不准确，明明击中却没有伤害；界面导航也不够直观，需要点击多次才能找到想要的选项。游戏平衡性也存在问题，某些干员明显过强，破坏了游戏体验。不过我很喜欢游戏中的世界观构建，通过干员背景和季节性事件讲述的故事很有吸引力，让玩家产生更多情感连接。",
+    "tag_details": {
+      "ux": [
+        {
+          "tag_name": "#MatchmakingTime",
+          "sentiment_score": 0.2,
+          "sentiment_label": "Negative",
+          "keywords": ["匹配时间", "等待", "5分钟"]
+        },
+        {
+          "tag_name": "#HitRegistration",
+          "sentiment_score": 0.25,
+          "sentiment_label": "Negative",
+          "keywords": ["命中注册", "击中", "没有伤害"]
+        },
+        {
+          "tag_name": "#MenuDesign",
+          "sentiment_score": 0.3,
+          "sentiment_label": "Negative",
+          "keywords": ["界面导航", "不直观", "点击多次"]
+        }
+      ],
+      "story": [
+        {
+          "tag_name": "#OperatorBackground",
+          "sentiment_score": 0.85,
+          "sentiment_label": "Positive",
+          "keywords": ["干员背景", "世界观", "情感连接"]
+        },
+        {
+          "tag_name": "#LoreExpansion",
+          "sentiment_score": 0.8,
+          "sentiment_label": "Positive",
+          "keywords": ["季节性事件", "故事", "吸引力"]
+        }
+      ],
+      "risk": [
+        {
+          "tag_name": "#BalanceIssues",
+          "sentiment_score": 0.25,
+          "sentiment_label": "Negative",
+          "keywords": ["平衡性", "干员过强", "游戏体验"]
+        }
+      ]
+    }
+  },
+  {
+    "user": "战地医疗兵",
+    "avatar": "https://randomuser.me/api/portraits/women/41.jpg",
+    "game": "Tom Clancy's Rainbow Six Siege",
+    "platform": "Steam",
+    "publish_at": "2025-05-10",
+    "rating": 4,
+    "content": "《彩虹六号：围攻》仍然是战术射击游戏的标杆，尽管存在一些问题。我最欣赏的是各干员的背景故事和人物塑造，每个角色都有独特的性格和动机，让游戏不仅仅是简单的对战。游戏世界观通过新干员和事件不断扩展，构建了一个有深度的虚拟世界。游戏的策略元素和团队配合需求让每场比赛都充满变数。不过缺点也很明显：匹配时间过长，经常需要等待3-4分钟；命中注册有时不准确，特别是在高延迟情况下；还有就是高段位的作弊问题比较严重。总体来说，如果你能忍受这些问题，《彩虹六号：围攻》仍然是值得投入时间的优秀多人游戏。",
+    "tag_details": {
+      "story": [
+        {
+          "tag_name": "#OperatorBackground",
+          "sentiment_score": 0.9,
+          "sentiment_label": "Positive",
+          "keywords": ["干员背景", "人物塑造", "性格动机"]
+        },
+        {
+          "tag_name": "#LoreExpansion",
+          "sentiment_score": 0.85,
+          "sentiment_label": "Positive",
+          "keywords": ["世界观", "新干员", "深度"]
+        }
+      ],
+      "ux": [
+        {
+          "tag_name": "#MatchmakingTime",
+          "sentiment_score": 0.25,
+          "sentiment_label": "Negative",
+          "keywords": ["匹配时间", "等待", "3-4分钟"]
+        },
+        {
+          "tag_name": "#HitRegistration",
+          "sentiment_score": 0.3,
+          "sentiment_label": "Negative",
+          "keywords": ["命中注册", "不准确", "高延迟"]
+        }
+      ],
+      "risk": [
+        {
+          "tag_name": "#Cheaters",
+          "sentiment_score": 0.2,
+          "sentiment_label": "Negative",
+          "keywords": ["作弊问题", "高段位", "严重"]
+        }
+      ]
+    }
+  },
+  {
+    "user": "突击专家",
+    "avatar": "https://randomuser.me/api/portraits/men/58.jpg",
+    "game": "Tom Clancy's Rainbow Six Siege",
+    "platform": "Steam",
+    "publish_at": "2025-01-03",
+    "rating": 2,
+    "content": "《彩虹六号》已经变成了一个技术债务的典型案例，老问题年复一年得不到解决，但新内容和付费项目却从不间断。命中注册是我最大的抱怨点，击中敌人头部却不造成伤害的情况太频繁了；匹配系统也很差劲，要么等待时间过长，要么匹配到技能水平完全不平衡的队伍；界面设计也非常混乱，找到特定设置需要钻过层层菜单。平衡性问题也很严重，某些干员明显过强，而有些干员几乎无人问津。唯一值得称赞的是游戏中干员的背景故事和世界观构建，随着游戏发展不断丰富和完善，这方面确实做得很好。但可惜的是，这无法弥补核心游戏体验的不足。",
+    "tag_details": {
+      "ux": [
+        {
+          "tag_name": "#HitRegistration",
+          "sentiment_score": 0.1,
+          "sentiment_label": "Negative",
+          "keywords": ["命中注册", "头部", "不造成伤害"]
+        },
+        {
+          "tag_name": "#MatchmakingTime",
+          "sentiment_score": 0.15,
+          "sentiment_label": "Negative",
+          "keywords": ["匹配系统", "等待时间", "不平衡"]
+        },
+        {
+          "tag_name": "#MenuDesign",
+          "sentiment_score": 0.2,
+          "sentiment_label": "Negative",
+          "keywords": ["界面设计", "混乱", "层层菜单"]
+        }
+      ],
+      "story": [
+        {
+          "tag_name": "#OperatorBackground",
+          "sentiment_score": 0.8,
+          "sentiment_label": "Positive",
+          "keywords": ["干员背景", "世界观", "丰富完善"]
+        }
+      ],
+      "risk": [
+        {
+          "tag_name": "#TechnicalDebt",
+          "sentiment_score": 0.1,
+          "sentiment_label": "Negative",
+          "keywords": ["技术债务", "老问题", "新内容"]
+        },
+        {
+          "tag_name": "#BalanceIssues",
+          "sentiment_score": 0.2,
+          "sentiment_label": "Negative",
+          "keywords": ["平衡性", "干员过强", "无人问津"]
+        }
+      ]
+    }
+  },
+  {
+    "user": "爆破手套",
+    "avatar": "https://randomuser.me/api/portraits/men/76.jpg",
+    "game": "Tom Clancy's Rainbow Six Siege",
+    "platform": "Steam",
+    "publish_at": "2025-03-15",
+    "rating": 5,
+    "content": "在玩了超过3000小时后，我仍然认为《彩虹六号：围攻》是最好的战术射击游戏。它的深度和团队配合要求让每场比赛都充满挑战和乐趣。干员的设计各具特色，背景故事丰富，增加了游戏的代入感。游戏世界观随着季节更新不断扩展，通过限时事件讲述的故事也很有吸引力。虽然游戏确实存在一些问题，比如偶尔的命中注册不准确和匹配时间过长，但这些都不影响我对这款游戏的热爱。平衡性方面，开发团队一直在努力调整，虽然不是完美，但总体上是朝着正确方向发展的。如果你喜欢需要战术思考和团队协作的射击游戏，《彩虹六号：围攻》绝对值得尝试。",
+    "tag_details": {
+      "story": [
+        {
+          "tag_name": "#OperatorBackground",
+          "sentiment_score": 0.9,
+          "sentiment_label": "Positive",
+          "keywords": ["干员设计", "背景故事", "代入感"]
+        },
+        {
+          "tag_name": "#LoreExpansion",
+          "sentiment_score": 0.85,
+          "sentiment_label": "Positive",
+          "keywords": ["世界观", "季节更新", "扩展"]
+        },
+        {
+          "tag_name": "#EventNarratives",
+          "sentiment_score": 0.8,
+          "sentiment_label": "Positive",
+          "keywords": ["限时事件", "故事", "吸引力"]
+        }
+      ],
+      "ux": [
+        {
+          "tag_name": "#HitRegistration",
+          "sentiment_score": 0.4,
+          "sentiment_label": "Mixed",
+          "keywords": ["命中注册", "不准确", "偶尔"]
+        },
+        {
+          "tag_name": "#MatchmakingTime",
+          "sentiment_score": 0.45,
+          "sentiment_label": "Mixed",
+          "keywords": ["匹配时间", "过长", "不影响"]
+        }
+      ],
+      "risk": [
+        {
+          "tag_name": "#BalanceIssues",
+          "sentiment_score": 0.6,
+          "sentiment_label": "Mixed",
+          "keywords": ["平衡性", "调整", "正确方向"]
+        }
+      ]
+    }
+  },
+  {
+    "user": "精准射手",
+    "avatar": "https://randomuser.me/api/portraits/women/38.jpg",
+    "game": "Tom Clancy's Rainbow Six Siege",
+    "platform": "Steam",
+    "publish_at": "2025-04-07",
+    "rating": 3,
+    "content": "《彩虹六号：围攻》是一个矛盾体。它的核心玩法设计非常出色，干员之间的互动和配合创造了无数可能性；各干员的背景故事和世界观构建也相当不错，让人对这个虚构的反恐世界产生兴趣。然而，游戏的技术实现却跟不上这些优秀的设计。命中判定问题严重，有时明显的头部射击却不造成伤害；匹配系统也有问题，经常需要等待很长时间才能进入游戏；界面导航也不够直观，需要多次点击才能找到特定设置。更让人失望的是，作弊问题在高段位比赛中越来越严重，而开发团队的应对措施似乎效果不佳。尽管如此，当游戏一切正常运作时，它仍然能提供其他射击游戏无法比拟的体验。",
+    "tag_details": {
+      "story": [
+        {
+          "tag_name": "#OperatorBackground",
+          "sentiment_score": 0.85,
+          "sentiment_label": "Positive",
+          "keywords": ["干员背景", "互动", "配合"]
+        },
+        {
+          "tag_name": "#LoreExpansion",
+          "sentiment_score": 0.8,
+          "sentiment_label": "Positive",
+          "keywords": ["世界观", "反恐世界", "兴趣"]
+        }
+      ],
+      "ux": [
+        {
+          "tag_name": "#HitRegistration",
+          "sentiment_score": 0.2,
+          "sentiment_label": "Negative",
+          "keywords": ["命中判定", "头部射击", "不造成伤害"]
+        },
+        {
+          "tag_name": "#MatchmakingTime",
+          "sentiment_score": 0.25,
+          "sentiment_label": "Negative",
+          "keywords": ["匹配系统", "等待时间", "进入游戏"]
+        },
+        {
+          "tag_name": "#MenuDesign",
+          "sentiment_score": 0.3,
+          "sentiment_label": "Negative",
+          "keywords": ["界面导航", "不直观", "多次点击"]
+        }
+      ],
+      "risk": [
+        {
+          "tag_name": "#Cheaters",
+          "sentiment_score": 0.15,
+          "sentiment_label": "Negative",
+          "keywords": ["作弊问题", "高段位", "应对措施"]
+        }
+      ]
+    }
+  },
+  {
+    "user": "阴影守望者",
+    "avatar": "https://randomuser.me/api/portraits/men/63.jpg",
+    "game": "Tom Clancy's Rainbow Six Siege",
+    "platform": "Steam",
+    "publish_at": "2025-02-19",
+    "rating": 4,
+    "content": "经过七年多的发展，《彩虹六号：围攻》已经成为一款内容丰富的战术射击游戏。干员阵容非常多样化，每个角色都有独特的技能和背景故事。我特别喜欢游戏通过新的情境和干员不断扩展世界观的方式，让整个游戏宇宙更加丰富。游戏的战术深度和团队合作要求让它区别于其他射击游戏。不过匹配时间确实是个问题，有时候要等待很久才能开始游戏；命中注册也不总是准确，有时候明显的命中却没有伤害反馈。菜单设计也不够直观，需要翻阅多层才能找到需要的选项。平衡性问题偶尔出现，某些干员在特定赛季会过于强力。尽管存在这些问题，对于喜欢战术射击游戏的玩家来说，这仍然是一款必玩的作品。",
+    "tag_details": {
+      "story": [
+        {
+          "tag_name": "#OperatorBackground",
+          "sentiment_score": 0.85,
+          "sentiment_label": "Positive",
+          "keywords": ["干员阵容", "技能", "背景故事"]
+        },
+        {
+          "tag_name": "#LoreExpansion",
+          "sentiment_score": 0.9,
+          "sentiment_label": "Positive",
+          "keywords": ["世界观", "情境", "游戏宇宙"]
+        }
+      ],
+      "ux": [
+        {
+          "tag_name": "#MatchmakingTime",
+          "sentiment_score": 0.3,
+          "sentiment_label": "Negative",
+          "keywords": ["匹配时间", "等待", "开始游戏"]
+        },
+        {
+          "tag_name": "#HitRegistration",
+          "sentiment_score": 0.35,
+          "sentiment_label": "Negative",
+          "keywords": ["命中注册", "命中", "伤害反馈"]
+        },
+        {
+          "tag_name": "#MenuDesign",
+          "sentiment_score": 0.4,
+          "sentiment_label": "Negative",
+          "keywords": ["菜单设计", "不直观", "多层"]
+        }
+      ],
+      "risk": [
+        {
+          "tag_name": "#BalanceIssues",
+          "sentiment_score": 0.45,
+          "sentiment_label": "Mixed",
+          "keywords": ["平衡性", "干员", "强力"]
+        }
+      ]
+    }
+  }
+] 

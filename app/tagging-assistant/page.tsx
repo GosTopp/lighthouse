@@ -4,10 +4,9 @@ import {
   SidebarInset,
   SidebarProvider,
 } from "@/components/ui/sidebar"
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { AutoTaggingForm, TaskList } from "@/components/auto-tagging"
+import { TaggingAssistantContent } from "@/components/tagging-assistant"
 
-export default function AutoTaggingPage() {
+export default function TaggingAssistantPage() {
   return (
     <SidebarProvider
       style={
@@ -19,23 +18,12 @@ export default function AutoTaggingPage() {
     >
       <AppSidebar variant="inset" />
       <SidebarInset>
-        <SiteHeader title="Auto Tagging" />
+        <SiteHeader title="Tagging Assistant" />
         <div className="flex flex-1 flex-col">
           <div className="@container/main flex flex-1 flex-col gap-2">
             <div className="flex flex-col gap-4 py-4 md:gap-6 md:py-6">
               <div className="px-4 lg:px-6">
-                <Tabs defaultValue="settings" className="w-full">
-                  <TabsList className="mb-6">
-                    <TabsTrigger value="settings">Auto Tagging Settings</TabsTrigger>
-                    <TabsTrigger value="tasks">Task List</TabsTrigger>
-                  </TabsList>
-                  <TabsContent value="settings">
-                    <AutoTaggingForm />
-                  </TabsContent>
-                  <TabsContent value="tasks">
-                    <TaskList />
-                  </TabsContent>
-                </Tabs>
+                <TaggingAssistantContent />
               </div>
             </div>
           </div>

@@ -1,0 +1,273 @@
+[
+  {
+    "user": "维京战魂",
+    "avatar": "https://randomuser.me/api/portraits/men/19.jpg",
+    "game": "Assassin's Creed Valhalla",
+    "platform": "Steam",
+    "publish_at": "2025-01-15",
+    "rating": 4,
+    "content": "《刺客信条：英灵殿》是一款内容丰富的开放世界游戏，我已经投入了将近120小时，依然没有完全探索所有内容。维京背景设定非常吸引人，挪威和英格兰的场景都刻画得极为细致，尤其是峡湾和修道院的场景令人印象深刻。战斗系统比起奥德赛有明显的改进，感觉更加有重量感，尤其是双持武器的战斗方式非常爽快。北欧神话元素的融入也很成功，那些神秘任务给游戏增添了额外的深度。不过游戏也存在一些问题，最明显的就是物品栏管理相当繁琐，武器和装备的分类不够直观；此外，偶尔会遇到一些任务无法触发的bug，需要重新加载才能解决。总体而言，这是一款非常值得一玩的刺客信条作品。",
+    "tag_details": {
+      "story": [
+        {
+          "tag_name": "#HistoricalSetting",
+          "sentiment_score": 0.88,
+          "sentiment_label": "Positive",
+          "keywords": ["维京背景", "峡湾", "细致"]
+        },
+        {
+          "tag_name": "#MythologyIntegration",
+          "sentiment_score": 0.85,
+          "sentiment_label": "Positive",
+          "keywords": ["北欧神话", "神秘任务", "深度"]
+        }
+      ],
+      "ux": [
+        {
+          "tag_name": "#CombatFluidity",
+          "sentiment_score": 0.8,
+          "sentiment_label": "Positive",
+          "keywords": ["战斗系统", "改进", "重量感"]
+        },
+        {
+          "tag_name": "#InventoryManagement",
+          "sentiment_score": 0.3,
+          "sentiment_label": "Negative",
+          "keywords": ["物品栏", "繁琐", "不直观"]
+        }
+      ],
+      "risk": [
+        {
+          "tag_name": "#QuestBugs",
+          "sentiment_score": 0.4,
+          "sentiment_label": "Negative",
+          "keywords": ["任务无法触发", "重新加载", "bug"]
+        }
+      ]
+    }
+  },
+  {
+    "user": "奥丁之眼",
+    "avatar": "https://randomuser.me/api/portraits/men/24.jpg",
+    "game": "Assassin's Creed Valhalla",
+    "platform": "Steam",
+    "publish_at": "2025-02-23",
+    "rating": 5,
+    "content": "作为一名北欧神话爱好者，《刺客信条：英灵殿》简直就是为我量身定制的游戏。游戏中对维京文化的还原非常用心，从服饰、建筑到日常生活细节都令人惊叹。战斗系统极其出色，每次成功斩杀敌人都能带来强烈的满足感，尤其是处决动画非常华丽且多样化。剧情也很引人入胜，艾沃尔的个人旅程既有史诗般的战斗，也不乏情感深度。支线任务设计得很有趣，那些世界事件往往出人意料且令人捧腹。游戏中的探索系统也非常棒，鼓励玩家去发现世界中的各种秘密和宝藏。游戏的音乐更是锦上添花，完美衬托了游戏的北欧氛围。虽然偶尔会出现一些小bug，但这对整体体验的影响微乎其微。对于喜欢开放世界和历史背景游戏的玩家来说，这绝对是一款必玩之作。",
+    "tag_details": {
+      "story": [
+        {
+          "tag_name": "#HistoricalSetting",
+          "sentiment_score": 0.92,
+          "sentiment_label": "Positive",
+          "keywords": ["维京文化", "还原", "细节"]
+        },
+        {
+          "tag_name": "#StoryPacing",
+          "sentiment_score": 0.88,
+          "sentiment_label": "Positive",
+          "keywords": ["剧情", "个人旅程", "情感深度"]
+        },
+        {
+          "tag_name": "#MythologyIntegration",
+          "sentiment_score": 0.9,
+          "sentiment_label": "Positive",
+          "keywords": ["北欧神话", "史诗", "满足感"]
+        }
+      ],
+      "ux": [
+        {
+          "tag_name": "#CombatFluidity",
+          "sentiment_score": 0.9,
+          "sentiment_label": "Positive",
+          "keywords": ["战斗系统", "处决动画", "华丽"]
+        },
+        {
+          "tag_name": "#WorldExploration",
+          "sentiment_score": 0.85,
+          "sentiment_label": "Positive",
+          "keywords": ["探索系统", "秘密", "宝藏"]
+        }
+      ],
+      "risk": [
+        {
+          "tag_name": "#MinorBugs",
+          "sentiment_score": 0.65,
+          "sentiment_label": "Mixed",
+          "keywords": ["小bug", "偶尔", "影响微小"]
+        }
+      ]
+    }
+  },
+  {
+    "user": "海盗之子",
+    "avatar": "https://randomuser.me/api/portraits/men/32.jpg",
+    "game": "Assassin's Creed Valhalla",
+    "platform": "Steam",
+    "publish_at": "2025-03-18",
+    "rating": 2,
+    "content": "《刺客信条：英灵殿》让我很失望。游戏地图虽然庞大，但内容过于重复，大部分地区看起来几乎一模一样，缺乏足够的特色。主线任务设计单调，基本就是去某地与某人交谈，然后与某些敌人战斗，最后回来报告。这样的模式一直重复到游戏结束。战斗系统虽然有所改进，但仍然存在一些问题，尤其是锁定系统经常出错，导致我攻击错误的目标。此外，游戏中的掉帧问题严重，即使在高配置PC上也会在城镇和战斗场景中出现明显卡顿。物品和装备系统设计复杂但没有深度，大多数装备的区别微乎其微。角色动作有时会卡住，尤其是在攀爬和跳跃时。虽然游戏的美术风格和音乐值得称赞，但这些优点无法弥补游戏玩法上的不足。总体而言，这是一款内容庞大但缺乏创新和打磨的游戏。",
+    "tag_details": {
+      "story": [
+        {
+          "tag_name": "#ContentRepetition",
+          "sentiment_score": 0.2,
+          "sentiment_label": "Negative",
+          "keywords": ["内容重复", "单调", "一模一样"]
+        },
+        {
+          "tag_name": "#MissionVariety",
+          "sentiment_score": 0.15,
+          "sentiment_label": "Negative",
+          "keywords": ["主线任务", "单调", "重复模式"]
+        }
+      ],
+      "ux": [
+        {
+          "tag_name": "#CombatFluidity",
+          "sentiment_score": 0.4,
+          "sentiment_label": "Negative",
+          "keywords": ["锁定系统", "出错", "错误目标"]
+        },
+        {
+          "tag_name": "#InventoryManagement",
+          "sentiment_score": 0.25,
+          "sentiment_label": "Negative",
+          "keywords": ["物品系统", "复杂", "缺乏深度"]
+        },
+        {
+          "tag_name": "#AnimationQuality",
+          "sentiment_score": 0.3,
+          "sentiment_label": "Negative",
+          "keywords": ["角色动作", "卡住", "攀爬跳跃"]
+        }
+      ],
+      "risk": [
+        {
+          "tag_name": "#FrameRateIssues",
+          "sentiment_score": 0.1,
+          "sentiment_label": "Negative",
+          "keywords": ["掉帧", "卡顿", "高配置"]
+        }
+      ]
+    }
+  },
+  {
+    "user": "北境游侠",
+    "avatar": "https://randomuser.me/api/portraits/women/45.jpg",
+    "game": "Assassin's Creed Valhalla",
+    "platform": "Steam",
+    "publish_at": "2025-04-09",
+    "rating": 3,
+    "content": "《刺客信条：英灵殿》有不少亮点，但也有明显的短板。游戏的世界构建非常出色，从挪威的雪山到英格兰的乡村都很美丽，探索这个世界是一种享受。我特别喜欢北欧神话元素的加入，阿斯加德和约顿海姆的任务设计很有创意。但问题也很明显：主线任务结构过于重复，每个地区的剧情模式几乎一样；游戏节奏拖沓，有时感觉是在刻意延长游戏时间；装备系统不够深入，很多武器虽然外观不同但实际使用感受差异不大。技术问题也不少，我遇到过几次任务无法完成的bug，还有角色偶尔会卡在环境中。战斗系统相比前作有改进，但感觉还是不够精准，尤其是在面对多个敌人时。总的来说，这是一款有潜力但未能完全发挥的作品，如果你是系列粉丝或者喜欢维京题材，可以尝试，但要做好接受其缺点的准备。",
+    "tag_details": {
+      "story": [
+        {
+          "tag_name": "#MythologyIntegration",
+          "sentiment_score": 0.8,
+          "sentiment_label": "Positive",
+          "keywords": ["北欧神话", "阿斯加德", "约顿海姆"]
+        },
+        {
+          "tag_name": "#ContentRepetition",
+          "sentiment_score": 0.25,
+          "sentiment_label": "Negative",
+          "keywords": ["主线任务", "重复", "模式一样"]
+        },
+        {
+          "tag_name": "#StoryPacing",
+          "sentiment_score": 0.3,
+          "sentiment_label": "Negative",
+          "keywords": ["节奏拖沓", "延长时间", "冗长"]
+        }
+      ],
+      "ux": [
+        {
+          "tag_name": "#WorldExploration",
+          "sentiment_score": 0.85,
+          "sentiment_label": "Positive",
+          "keywords": ["世界构建", "美丽", "探索"]
+        },
+        {
+          "tag_name": "#CombatFluidity",
+          "sentiment_score": 0.5,
+          "sentiment_label": "Mixed",
+          "keywords": ["战斗系统", "改进", "不够精准"]
+        },
+        {
+          "tag_name": "#InventoryManagement",
+          "sentiment_score": 0.35,
+          "sentiment_label": "Negative",
+          "keywords": ["装备系统", "不够深入", "差异不大"]
+        }
+      ],
+      "risk": [
+        {
+          "tag_name": "#QuestBugs",
+          "sentiment_score": 0.2,
+          "sentiment_label": "Negative",
+          "keywords": ["任务无法完成", "bug", "卡在环境"]
+        }
+      ]
+    }
+  },
+  {
+    "user": "瓦尔哈拉战士",
+    "avatar": "https://randomuser.me/api/portraits/men/53.jpg",
+    "game": "Assassin's Creed Valhalla",
+    "platform": "Steam",
+    "publish_at": "2025-05-20",
+    "rating": 4,
+    "content": "《刺客信条：英灵殿》提供了一次令人印象深刻的维京冒险。游戏的开放世界设计非常精美，挪威的雪山峡湾和英格兰的乡村城镇都刻画得惟妙惟肖。战斗系统有了很大改进，双手武器的引入和新的处决动画让战斗更加血腥和满足。游戏中的支线任务（世界事件）设计得十分有趣，有些甚至令人捧腹大笑。我也喜欢定居点系统，看着自己的村庄从简陋的营地逐渐发展成繁荣的聚落非常有成就感。角色成长系统也很不错，技能树的设计让玩家可以根据自己的喜好打造战斗风格。不过游戏也有一些不足：物品栏管理比较繁琐，有时候要翻好几页才能找到想要的装备；偶尔会遇到任务卡关需要重载；游戏时间过长，主线剧情到后期有些拖沓。总体而言，这是一款很有诚意的作品，值得一试。",
+    "tag_details": {
+      "story": [
+        {
+          "tag_name": "#HistoricalSetting",
+          "sentiment_score": 0.9,
+          "sentiment_label": "Positive",
+          "keywords": ["维京冒险", "挪威", "英格兰"]
+        },
+        {
+          "tag_name": "#SideQuestDesign",
+          "sentiment_score": 0.85,
+          "sentiment_label": "Positive",
+          "keywords": ["世界事件", "有趣", "捧腹大笑"]
+        },
+        {
+          "tag_name": "#StoryPacing",
+          "sentiment_score": 0.4,
+          "sentiment_label": "Negative",
+          "keywords": ["主线剧情", "拖沓", "过长"]
+        }
+      ],
+      "ux": [
+        {
+          "tag_name": "#WorldExploration",
+          "sentiment_score": 0.9,
+          "sentiment_label": "Positive",
+          "keywords": ["开放世界", "精美", "惟妙惟肖"]
+        },
+        {
+          "tag_name": "#CombatFluidity",
+          "sentiment_score": 0.85,
+          "sentiment_label": "Positive",
+          "keywords": ["战斗系统", "改进", "满足"]
+        },
+        {
+          "tag_name": "#InventoryManagement",
+          "sentiment_score": 0.35,
+          "sentiment_label": "Negative",
+          "keywords": ["物品栏", "繁琐", "翻页"]
+        }
+      ],
+      "risk": [
+        {
+          "tag_name": "#QuestBugs",
+          "sentiment_score": 0.45,
+          "sentiment_label": "Mixed",
+          "keywords": ["任务卡关", "重载", "偶尔"]
+        }
+      ]
+    }
+  }
+] 

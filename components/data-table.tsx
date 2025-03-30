@@ -331,10 +331,34 @@ function DraggableRow({ row }: { row: Row<z.infer<typeof schema>> }) {
   )
 }
 
+// 定义UX标签数据类型
+export type UxTag = {
+  tag_name: string;
+  tag_description: string;
+  sentiment_score: number;
+  sentiment_label: string;
+  volume: number;
+  trend: number;
+  tgi: number;
+  sample_comment: string;
+};
+
+export type TagData = {
+  id: number;
+  game: string;
+  tag_details: {
+    ux: UxTag[];
+    story: any[];
+    risk: any[];
+  };
+};
+
 export function DataTable({
   data: initialData,
+  tagsData
 }: {
   data: z.infer<typeof schema>[]
+  tagsData?: TagData[]
 }) {
   const [data, setData] = React.useState(() => initialData)
   const [rowSelection, setRowSelection] = React.useState({})
@@ -348,6 +372,7 @@ export function DataTable({
     pageIndex: 0,
     pageSize: 10,
   })
+  const [activeTab, setActiveTab] = React.useState("outline")
   const sortableId = React.useId()
   const sensors = useSensors(
     useSensor(MouseSensor, {}),
@@ -385,6 +410,60 @@ export function DataTable({
     getFacetedUniqueValues: getFacetedUniqueValues(),
   })
 
+  // 定义 UX 表格的列配置
+  const uxColumns = [
+    { id: "id", label: "ID", checked: true },
+    { id: "game", label: "Game", checked: true },
+    { id: "ux_tag", label: "UX Tag", checked: true },
+    { id: "description", label: "Description", checked: true },
+    { id: "sentiment", label: "Sentiment", checked: true },
+    { id: "volume", label: "Volume", checked: true },
+    { id: "sample_comment", label: "Sample Comment", checked: true }
+  ]
+  
+  // 定义 Story 表格的列配置
+  const storyColumns = [
+    { id: "id", label: "ID", checked: true },
+    { id: "game", label: "Game", checked: true },
+    { id: "story_tag", label: "Story Tag", checked: true },
+    { id: "description", label: "Description", checked: true },
+    { id: "sentiment", label: "Sentiment", checked: true },
+    { id: "volume", label: "Volume", checked: true },
+    { id: "sample_comment", label: "Sample Comment", checked: true }
+  ]
+  
+  // 定义 Risk 表格的列配置
+  const riskColumns = [
+    { id: "id", label: "ID", checked: true },
+    { id: "game", label: "Game", checked: true },
+    { id: "risk_tag", label: "Risk Tag", checked: true },
+    { id: "description", label: "Description", checked: true },
+    { id: "sentiment", label: "Sentiment", checked: true },
+    { id: "volume", label: "Volume", checked: true },
+    { id: "sample_comment", label: "Sample Comment", checked: true }
+  ]
+  
+  const [visibleUxColumns, setVisibleUxColumns] = React.useState(
+    uxColumns.reduce((acc, column) => {
+      acc[column.id] = column.checked
+      return acc
+    }, {} as Record<string, boolean>)
+  )
+  
+  const [visibleStoryColumns, setVisibleStoryColumns] = React.useState(
+    storyColumns.reduce((acc, column) => {
+      acc[column.id] = column.checked
+      return acc
+    }, {} as Record<string, boolean>)
+  )
+  
+  const [visibleRiskColumns, setVisibleRiskColumns] = React.useState(
+    riskColumns.reduce((acc, column) => {
+      acc[column.id] = column.checked
+      return acc
+    }, {} as Record<string, boolean>)
+  )
+
   function handleDragEnd(event: DragEndEvent) {
     const { active, over } = event
     if (active && over && active.id !== over.id) {
@@ -396,10 +475,15 @@ export function DataTable({
     }
   }
 
+  function handleTabChange(value: string) {
+    setActiveTab(value)
+  }
+
   return (
     <Tabs
       defaultValue="outline"
       className="w-full flex-col justify-start gap-6"
+      onValueChange={handleTabChange}
     >
       <div className="flex items-center justify-between px-4 lg:px-6">
         <Label htmlFor="view-selector" className="sr-only">
@@ -415,20 +499,20 @@ export function DataTable({
           </SelectTrigger>
           <SelectContent>
             <SelectItem value="outline">Outline</SelectItem>
-            <SelectItem value="past-performance">Past Performance</SelectItem>
-            <SelectItem value="key-personnel">Key Personnel</SelectItem>
-            <SelectItem value="focus-documents">Focus Documents</SelectItem>
+            <SelectItem value="past-performance">UX</SelectItem>
+            <SelectItem value="key-personnel">Story</SelectItem>
+            <SelectItem value="focus-documents">Risk</SelectItem>
           </SelectContent>
         </Select>
         <TabsList className="**:data-[slot=badge]:bg-muted-foreground/30 hidden **:data-[slot=badge]:size-5 **:data-[slot=badge]:rounded-full **:data-[slot=badge]:px-1 @4xl/main:flex">
           <TabsTrigger value="outline">Outline</TabsTrigger>
           <TabsTrigger value="past-performance">
-            Past Performance <Badge variant="secondary">3</Badge>
+            UX
           </TabsTrigger>
           <TabsTrigger value="key-personnel">
-            Key Personnel <Badge variant="secondary">2</Badge>
+            Story
           </TabsTrigger>
-          <TabsTrigger value="focus-documents">Focus Documents</TabsTrigger>
+          <TabsTrigger value="focus-documents">Risk</TabsTrigger>
         </TabsList>
         <div className="flex items-center gap-2">
           <DropdownMenu>
@@ -441,27 +525,89 @@ export function DataTable({
               </Button>
             </DropdownMenuTrigger>
             <DropdownMenuContent align="end" className="w-56">
-              {table
-                .getAllColumns()
-                .filter(
-                  (column) =>
-                    typeof column.accessorFn !== "undefined" &&
-                    column.getCanHide()
-                )
-                .map((column) => {
-                  return (
+              {activeTab === "outline" ? 
+                table
+                  .getAllColumns()
+                  .filter(
+                    (column) =>
+                      typeof column.accessorFn !== "undefined" &&
+                      column.getCanHide()
+                  )
+                  .map((column) => {
+                    // 为列名称创建更用户友好的显示
+                    const displayName = {
+                      'game': 'Game',
+                      'platform': 'Platform',
+                      'status': 'Status',
+                      'total_buzz': 'Total Buzz',
+                      'sentiment_score': 'Sentiment Score',
+                      'emerging_issues': 'Emerging Issues',
+                      'top_tags': 'Top Tags',
+                      'review': 'Review'
+                    }[column.id] || column.id;
+                    
+                    return (
+                      <DropdownMenuCheckboxItem
+                        key={column.id}
+                        className="capitalize"
+                        checked={column.getIsVisible()}
+                        onCheckedChange={(value) =>
+                          column.toggleVisibility(!!value)
+                        }
+                      >
+                        {displayName}
+                      </DropdownMenuCheckboxItem>
+                    )
+                  }) 
+                : activeTab === "past-performance" ?
+                  uxColumns.map((column) => (
                     <DropdownMenuCheckboxItem
                       key={column.id}
                       className="capitalize"
-                      checked={column.getIsVisible()}
-                      onCheckedChange={(value) =>
-                        column.toggleVisibility(!!value)
-                      }
+                      checked={visibleUxColumns[column.id]}
+                      onCheckedChange={(value) => {
+                        setVisibleUxColumns({
+                          ...visibleUxColumns,
+                          [column.id]: !!value
+                        })
+                      }}
                     >
-                      {column.id}
+                      {column.label}
                     </DropdownMenuCheckboxItem>
-                  )
-                })}
+                  ))
+                : activeTab === "key-personnel" ?
+                  storyColumns.map((column) => (
+                    <DropdownMenuCheckboxItem
+                      key={column.id}
+                      className="capitalize"
+                      checked={visibleStoryColumns[column.id]}
+                      onCheckedChange={(value) => {
+                        setVisibleStoryColumns({
+                          ...visibleStoryColumns,
+                          [column.id]: !!value
+                        })
+                      }}
+                    >
+                      {column.label}
+                    </DropdownMenuCheckboxItem>
+                  ))
+                : 
+                  riskColumns.map((column) => (
+                    <DropdownMenuCheckboxItem
+                      key={column.id}
+                      className="capitalize"
+                      checked={visibleRiskColumns[column.id]}
+                      onCheckedChange={(value) => {
+                        setVisibleRiskColumns({
+                          ...visibleRiskColumns,
+                          [column.id]: !!value
+                        })
+                      }}
+                    >
+                      {column.label}
+                    </DropdownMenuCheckboxItem>
+                  ))
+              }
             </DropdownMenuContent>
           </DropdownMenu>
           <Button variant="outline" size="sm">
@@ -607,16 +753,247 @@ export function DataTable({
         value="past-performance"
         className="flex flex-col px-4 lg:px-6"
       >
-        <div className="aspect-video w-full flex-1 rounded-lg border border-dashed"></div>
+        <div className="flex items-center justify-between mb-4">
+          <h3 className="text-lg font-medium">UX Tags Analysis</h3>
+          <div className="flex items-center gap-4 rounded-md border px-3 py-1.5">
+            <div className="flex items-center gap-2">
+              <span className="inline-block w-3 h-3 rounded-full bg-green-500"></span>
+              <span className="text-sm">Positive</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <span className="inline-block w-3 h-3 rounded-full bg-red-500"></span>
+              <span className="text-sm">Negative</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <span className="inline-block w-3 h-3 rounded-full bg-yellow-500"></span>
+              <span className="text-sm">Mixed</span>
+            </div>
+          </div>
+        </div>
+        <div className="overflow-hidden rounded-lg border">
+          <Table>
+            <TableHeader className="bg-muted sticky top-0 z-10">
+              <TableRow>
+                {visibleUxColumns.id && <TableHead>ID</TableHead>}
+                {visibleUxColumns.game && <TableHead>Game</TableHead>}
+                {visibleUxColumns.ux_tag && <TableHead>UX Tag</TableHead>}
+                {visibleUxColumns.description && <TableHead>Description</TableHead>}
+                {visibleUxColumns.sentiment && <TableHead>Sentiment</TableHead>}
+                {visibleUxColumns.volume && <TableHead>Volume</TableHead>}
+                {visibleUxColumns.sample_comment && <TableHead>Sample Comment</TableHead>}
+              </TableRow>
+            </TableHeader>
+            <TableBody>
+              {tagsData && tagsData.map((item: TagData) => (
+                item.tag_details.ux && item.tag_details.ux.map((tag: UxTag, tagIndex: number) => (
+                  <TableRow key={`${item.id}-${tagIndex}`}>
+                    {visibleUxColumns.id && <TableCell>{tagIndex === 0 ? item.id : ''}</TableCell>}
+                    {visibleUxColumns.game && <TableCell className="font-medium">{tagIndex === 0 ? item.game : ''}</TableCell>}
+                    {visibleUxColumns.ux_tag && (
+                      <TableCell>
+                        <Badge variant="outline" className={`px-1.5 ${tag.sentiment_label === "Positive" ? "text-green-500" : tag.sentiment_label === "Negative" ? "text-red-500" : "text-yellow-500"}`}>
+                          {tag.tag_name}
+                        </Badge>
+                      </TableCell>
+                    )}
+                    {visibleUxColumns.description && (
+                      <TableCell>
+                        <span className="text-sm text-muted-foreground">{tag.tag_description}</span>
+                      </TableCell>
+                    )}
+                    {visibleUxColumns.sentiment && (
+                      <TableCell>
+                        <div className="flex items-center gap-2">
+                          <span className={`inline-block w-2 h-2 rounded-full ${tag.sentiment_label === "Positive" ? "bg-green-500" : tag.sentiment_label === "Negative" ? "bg-red-500" : "bg-yellow-500"}`}></span>
+                          <span className={`font-medium ${tag.sentiment_label === "Positive" ? "text-green-600" : tag.sentiment_label === "Negative" ? "text-red-600" : "text-yellow-600"}`}>{(tag.sentiment_score * 100).toFixed(0)}%</span>
+                        </div>
+                      </TableCell>
+                    )}
+                    {visibleUxColumns.volume && (
+                      <TableCell>
+                        <div className="flex items-center gap-2">
+                          <span className="font-medium">{tag.volume}</span>
+                          <Badge variant="outline" className={`px-1.5 text-xs ${tag.trend > 1 ? "text-green-500" : "text-red-500"}`}>
+                            {tag.trend > 1 ? `↑ ${(tag.trend * 100 - 100).toFixed(0)}%` : `↓ ${(100 - tag.trend * 100).toFixed(0)}%`}
+                          </Badge>
+                        </div>
+                      </TableCell>
+                    )}
+                    {visibleUxColumns.sample_comment && (
+                      <TableCell>
+                        <div className="max-w-xs truncate text-xs text-muted-foreground">
+                          {tag.sample_comment}
+                        </div>
+                      </TableCell>
+                    )}
+                  </TableRow>
+                ))
+              ))}
+            </TableBody>
+          </Table>
+        </div>
       </TabsContent>
       <TabsContent value="key-personnel" className="flex flex-col px-4 lg:px-6">
-        <div className="aspect-video w-full flex-1 rounded-lg border border-dashed"></div>
+        <div className="flex items-center justify-between mb-4">
+          <h3 className="text-lg font-medium">Story Tags Analysis</h3>
+          <div className="flex items-center gap-4 rounded-md border px-3 py-1.5">
+            <div className="flex items-center gap-2">
+              <span className="inline-block w-3 h-3 rounded-full bg-green-500"></span>
+              <span className="text-sm">Positive</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <span className="inline-block w-3 h-3 rounded-full bg-red-500"></span>
+              <span className="text-sm">Negative</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <span className="inline-block w-3 h-3 rounded-full bg-yellow-500"></span>
+              <span className="text-sm">Mixed</span>
+            </div>
+          </div>
+        </div>
+        <div className="overflow-hidden rounded-lg border">
+          <Table>
+            <TableHeader className="bg-muted sticky top-0 z-10">
+              <TableRow>
+                {visibleStoryColumns.id && <TableHead>ID</TableHead>}
+                {visibleStoryColumns.game && <TableHead>Game</TableHead>}
+                {visibleStoryColumns.story_tag && <TableHead>Story Tag</TableHead>}
+                {visibleStoryColumns.description && <TableHead>Description</TableHead>}
+                {visibleStoryColumns.sentiment && <TableHead>Sentiment</TableHead>}
+                {visibleStoryColumns.volume && <TableHead>Volume</TableHead>}
+                {visibleStoryColumns.sample_comment && <TableHead>Sample Comment</TableHead>}
+              </TableRow>
+            </TableHeader>
+            <TableBody>
+              {tagsData && tagsData.map((item: TagData) => (
+                item.tag_details.story && item.tag_details.story.map((tag: any, tagIndex: number) => (
+                  <TableRow key={`${item.id}-story-${tagIndex}`}>
+                    {visibleStoryColumns.id && <TableCell>{tagIndex === 0 ? item.id : ''}</TableCell>}
+                    {visibleStoryColumns.game && <TableCell className="font-medium">{tagIndex === 0 ? item.game : ''}</TableCell>}
+                    {visibleStoryColumns.story_tag && (
+                      <TableCell>
+                        <Badge variant="outline" className={`px-1.5 ${tag.sentiment_label === "Positive" ? "text-green-500" : tag.sentiment_label === "Negative" ? "text-red-500" : "text-yellow-500"}`}>
+                          {tag.tag_name}
+                        </Badge>
+                      </TableCell>
+                    )}
+                    {visibleStoryColumns.description && (
+                      <TableCell>
+                        <span className="text-sm text-muted-foreground">{tag.tag_description}</span>
+                      </TableCell>
+                    )}
+                    {visibleStoryColumns.sentiment && (
+                      <TableCell>
+                        <div className="flex items-center gap-2">
+                          <span className={`inline-block w-2 h-2 rounded-full ${tag.sentiment_label === "Positive" ? "bg-green-500" : tag.sentiment_label === "Negative" ? "bg-red-500" : "bg-yellow-500"}`}></span>
+                          <span className={`font-medium ${tag.sentiment_label === "Positive" ? "text-green-600" : tag.sentiment_label === "Negative" ? "text-red-600" : "text-yellow-600"}`}>{(tag.sentiment_score * 100).toFixed(0)}%</span>
+                        </div>
+                      </TableCell>
+                    )}
+                    {visibleStoryColumns.volume && (
+                      <TableCell>
+                        <div className="flex items-center gap-2">
+                          <span className="font-medium">{tag.volume}</span>
+                          <Badge variant="outline" className={`px-1.5 text-xs ${tag.trend > 1 ? "text-green-500" : "text-red-500"}`}>
+                            {tag.trend > 1 ? `↑ ${(tag.trend * 100 - 100).toFixed(0)}%` : `↓ ${(100 - tag.trend * 100).toFixed(0)}%`}
+                          </Badge>
+                        </div>
+                      </TableCell>
+                    )}
+                    {visibleStoryColumns.sample_comment && (
+                      <TableCell>
+                        <div className="max-w-xs truncate text-xs text-muted-foreground">
+                          {tag.sample_comment}
+                        </div>
+                      </TableCell>
+                    )}
+                  </TableRow>
+                ))
+              ))}
+            </TableBody>
+          </Table>
+        </div>
       </TabsContent>
-      <TabsContent
-        value="focus-documents"
-        className="flex flex-col px-4 lg:px-6"
-      >
-        <div className="aspect-video w-full flex-1 rounded-lg border border-dashed"></div>
+      <TabsContent value="focus-documents" className="flex flex-col px-4 lg:px-6">
+        <div className="flex items-center justify-between mb-4">
+          <h3 className="text-lg font-medium">Risk Tags Analysis</h3>
+          <div className="flex items-center gap-4 rounded-md border px-3 py-1.5">
+            <div className="flex items-center gap-2">
+              <span className="inline-block w-3 h-3 rounded-full bg-green-500"></span>
+              <span className="text-sm">Positive</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <span className="inline-block w-3 h-3 rounded-full bg-red-500"></span>
+              <span className="text-sm">Negative</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <span className="inline-block w-3 h-3 rounded-full bg-yellow-500"></span>
+              <span className="text-sm">Mixed</span>
+            </div>
+          </div>
+        </div>
+        <div className="overflow-hidden rounded-lg border">
+          <Table>
+            <TableHeader className="bg-muted sticky top-0 z-10">
+              <TableRow>
+                {visibleRiskColumns.id && <TableHead>ID</TableHead>}
+                {visibleRiskColumns.game && <TableHead>Game</TableHead>}
+                {visibleRiskColumns.risk_tag && <TableHead>Risk Tag</TableHead>}
+                {visibleRiskColumns.description && <TableHead>Description</TableHead>}
+                {visibleRiskColumns.sentiment && <TableHead>Sentiment</TableHead>}
+                {visibleRiskColumns.volume && <TableHead>Volume</TableHead>}
+                {visibleRiskColumns.sample_comment && <TableHead>Sample Comment</TableHead>}
+              </TableRow>
+            </TableHeader>
+            <TableBody>
+              {tagsData && tagsData.map((item: TagData) => (
+                item.tag_details.risk && item.tag_details.risk.map((tag: any, tagIndex: number) => (
+                  <TableRow key={`${item.id}-risk-${tagIndex}`}>
+                    {visibleRiskColumns.id && <TableCell>{tagIndex === 0 ? item.id : ''}</TableCell>}
+                    {visibleRiskColumns.game && <TableCell className="font-medium">{tagIndex === 0 ? item.game : ''}</TableCell>}
+                    {visibleRiskColumns.risk_tag && (
+                      <TableCell>
+                        <Badge variant="outline" className={`px-1.5 ${tag.sentiment_label === "Positive" ? "text-green-500" : tag.sentiment_label === "Negative" ? "text-red-500" : "text-yellow-500"}`}>
+                          {tag.tag_name}
+                        </Badge>
+                      </TableCell>
+                    )}
+                    {visibleRiskColumns.description && (
+                      <TableCell>
+                        <span className="text-sm text-muted-foreground">{tag.tag_description}</span>
+                      </TableCell>
+                    )}
+                    {visibleRiskColumns.sentiment && (
+                      <TableCell>
+                        <div className="flex items-center gap-2">
+                          <span className={`inline-block w-2 h-2 rounded-full ${tag.sentiment_label === "Positive" ? "bg-green-500" : tag.sentiment_label === "Negative" ? "bg-red-500" : "bg-yellow-500"}`}></span>
+                          <span className={`font-medium ${tag.sentiment_label === "Positive" ? "text-green-600" : tag.sentiment_label === "Negative" ? "text-red-600" : "text-yellow-600"}`}>{(tag.sentiment_score * 100).toFixed(0)}%</span>
+                        </div>
+                      </TableCell>
+                    )}
+                    {visibleRiskColumns.volume && (
+                      <TableCell>
+                        <div className="flex items-center gap-2">
+                          <span className="font-medium">{tag.volume}</span>
+                          <Badge variant="outline" className={`px-1.5 text-xs ${tag.trend > 1 ? "text-green-500" : "text-red-500"}`}>
+                            {tag.trend > 1 ? `↑ ${(tag.trend * 100 - 100).toFixed(0)}%` : `↓ ${(100 - tag.trend * 100).toFixed(0)}%`}
+                          </Badge>
+                        </div>
+                      </TableCell>
+                    )}
+                    {visibleRiskColumns.sample_comment && (
+                      <TableCell>
+                        <div className="max-w-xs truncate text-xs text-muted-foreground">
+                          {tag.sample_comment}
+                        </div>
+                      </TableCell>
+                    )}
+                  </TableRow>
+                ))
+              ))}
+            </TableBody>
+          </Table>
+        </div>
       </TabsContent>
     </Tabs>
   )

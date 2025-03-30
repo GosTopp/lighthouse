@@ -1,0 +1,508 @@
+[
+  {
+    "user": "数据幽灵",
+    "avatar": "https://randomuser.me/api/portraits/men/25.jpg",
+    "game": "Watch Dogs: Legion",
+    "platform": "Steam",
+    "publish_at": "2025-01-18",
+    "rating": 4,
+    "content": "《看门狗：军团》最大的亮点就是\"招募任何人\"的系统，这种创新玩法让游戏体验非常独特。每个NPC都有自己的背景故事和特殊能力，探索伦敦寻找合适的队员成为了游戏中最有趣的部分。我特别喜欢当游戏世界对我的行动做出反应时，比如我救了某人后，他的亲友对我的态度会变好，这些细节增加了游戏的沉浸感。不过UI导航设计有些繁琐，尤其是在管理团队成员时需要频繁进入多个菜单。还有就是偶尔会遇到一些帧率问题，尤其是在驾驶和高速移动时。但总体来说，这是一款值得一玩的开放世界游戏。",
+    "tag_details": {
+      "story": [
+        {
+          "tag_name": "#RecruitmentStories",
+          "sentiment_score": 0.85,
+          "sentiment_label": "Positive",
+          "keywords": ["招募任何人", "背景故事", "特殊能力"]
+        },
+        {
+          "tag_name": "#WorldReactions",
+          "sentiment_score": 0.8,
+          "sentiment_label": "Positive",
+          "keywords": ["世界反应", "亲友态度", "沉浸感"]
+        }
+      ],
+      "ux": [
+        {
+          "tag_name": "#MenuNavigation",
+          "sentiment_score": 0.3,
+          "sentiment_label": "Negative",
+          "keywords": ["UI导航", "繁琐", "多个菜单"]
+        }
+      ],
+      "risk": [
+        {
+          "tag_name": "#FrameRateIssues",
+          "sentiment_score": 0.35,
+          "sentiment_label": "Negative",
+          "keywords": ["帧率问题", "驾驶", "高速移动"]
+        }
+      ]
+    }
+  },
+  {
+    "user": "黑客联盟",
+    "avatar": "https://randomuser.me/api/portraits/men/33.jpg",
+    "game": "Watch Dogs: Legion",
+    "platform": "Steam",
+    "publish_at": "2025-02-25",
+    "rating": 3,
+    "content": "《看门狗：军团》是一款有趣但不完美的游戏。招募系统很有创意，能从街上找到各种各样的角色加入你的反抗组织，每个角色都有独特的技能和背景。不过游戏的任务设计较为重复，大多是黑入某处、偷取数据或者渗透基地，到后期会有些单调。角色对话也略显生硬，感觉缺乏深度。技术方面存在一些问题，比如在繁忙地区会有明显的帧率下降，偶尔还会遇到任务无法完成需要重启游戏的bug。不过我很喜欢游戏中的反乌托邦伦敦设计，充满科技感又带有政治讽刺意味，非常有特色。",
+    "tag_details": {
+      "story": [
+        {
+          "tag_name": "#RecruitmentStories",
+          "sentiment_score": 0.75,
+          "sentiment_label": "Positive",
+          "keywords": ["招募系统", "独特技能", "背景"]
+        },
+        {
+          "tag_name": "#MissionVariety",
+          "sentiment_score": 0.3,
+          "sentiment_label": "Negative",
+          "keywords": ["任务设计", "重复", "单调"]
+        },
+        {
+          "tag_name": "#DialogueQuality",
+          "sentiment_score": 0.4,
+          "sentiment_label": "Negative",
+          "keywords": ["角色对话", "生硬", "缺乏深度"]
+        }
+      ],
+      "ux": [
+        {
+          "tag_name": "#WorldDesign",
+          "sentiment_score": 0.8,
+          "sentiment_label": "Positive",
+          "keywords": ["反乌托邦", "伦敦", "科技感"]
+        }
+      ],
+      "risk": [
+        {
+          "tag_name": "#FrameRateIssues",
+          "sentiment_score": 0.3,
+          "sentiment_label": "Negative",
+          "keywords": ["帧率下降", "繁忙地区", "技术问题"]
+        },
+        {
+          "tag_name": "#QuestBugs",
+          "sentiment_score": 0.25,
+          "sentiment_label": "Negative",
+          "keywords": ["任务无法完成", "重启游戏", "bug"]
+        }
+      ]
+    }
+  },
+  {
+    "user": "抵抗先锋",
+    "avatar": "https://randomuser.me/api/portraits/women/37.jpg",
+    "game": "Watch Dogs: Legion",
+    "platform": "Steam",
+    "publish_at": "2025-03-14",
+    "rating": 5,
+    "content": "《看门狗：军团》令我印象深刻！招募系统是一个伟大的创新，它让每一次游戏体验都与众不同。我喜欢在伦敦街头寻找有特殊技能的人才，比如找到一位精通黑客的IT专家，或者招募有特殊通行证的安保人员。每个角色都有自己的背景故事，这让他们感觉像真实的人物而非简单的游戏角色。游戏的开放世界设计也非常出色，未来伦敦的氛围营造得恰到好处，既有熟悉的地标，又有科技感十足的未来元素。虽然偶尔会遇到一些小bug，但这些都不影响我对这款游戏的喜爱。社交招募系统特别让我着迷，喜欢看到我的行动如何影响NPC对我的看法。",
+    "tag_details": {
+      "story": [
+        {
+          "tag_name": "#RecruitmentStories",
+          "sentiment_score": 0.9,
+          "sentiment_label": "Positive",
+          "keywords": ["招募系统", "特殊技能", "背景故事"]
+        },
+        {
+          "tag_name": "#WorldReactions",
+          "sentiment_score": 0.85,
+          "sentiment_label": "Positive",
+          "keywords": ["社交招募", "影响", "NPC看法"]
+        }
+      ],
+      "ux": [
+        {
+          "tag_name": "#WorldDesign",
+          "sentiment_score": 0.9,
+          "sentiment_label": "Positive",
+          "keywords": ["开放世界", "未来伦敦", "科技感"]
+        }
+      ],
+      "risk": [
+        {
+          "tag_name": "#MinorBugs",
+          "sentiment_score": 0.6,
+          "sentiment_label": "Mixed",
+          "keywords": ["小bug", "偶尔", "不影响"]
+        }
+      ]
+    }
+  },
+  {
+    "user": "伦敦反抗者",
+    "avatar": "https://randomuser.me/api/portraits/men/47.jpg",
+    "game": "Watch Dogs: Legion",
+    "platform": "Steam",
+    "publish_at": "2025-04-22",
+    "rating": 2,
+    "content": "《看门狗：军团》让我很失望。虽然招募系统的理念很有创意，但实际体验却很肤浅。角色之间除了外表和少数几个特性外几乎没有差别，他们的对话和任务表现都千篇一律。游戏的性能问题也很严重，在伦敦市中心区域经常掉帧，有时甚至会崩溃。驾驶体验非常糟糕，车辆控制感觉像在冰面上滑行。玩了大约15小时后，我遇到了一个严重的存档损坏问题，丢失了所有进度。故事情节也很平淡，没有足够的张力来维持我的兴趣。虽然游戏世界设计得不错，未来伦敦的景观确实令人印象深刻，但这不足以弥补其他方面的不足。",
+    "tag_details": {
+      "story": [
+        {
+          "tag_name": "#RecruitmentStories",
+          "sentiment_score": 0.3,
+          "sentiment_label": "Negative",
+          "keywords": ["招募系统", "肤浅", "千篇一律"]
+        },
+        {
+          "tag_name": "#DialogueQuality",
+          "sentiment_score": 0.2,
+          "sentiment_label": "Negative",
+          "keywords": ["对话", "任务表现", "没有差别"]
+        },
+        {
+          "tag_name": "#StoryPacing",
+          "sentiment_score": 0.25,
+          "sentiment_label": "Negative",
+          "keywords": ["故事情节", "平淡", "缺乏张力"]
+        }
+      ],
+      "ux": [
+        {
+          "tag_name": "#WorldDesign",
+          "sentiment_score": 0.7,
+          "sentiment_label": "Positive",
+          "keywords": ["未来伦敦", "景观", "印象深刻"]
+        },
+        {
+          "tag_name": "#DrivingControls",
+          "sentiment_score": 0.1,
+          "sentiment_label": "Negative",
+          "keywords": ["驾驶体验", "糟糕", "冰面滑行"]
+        }
+      ],
+      "risk": [
+        {
+          "tag_name": "#FrameRateIssues",
+          "sentiment_score": 0.15,
+          "sentiment_label": "Negative",
+          "keywords": ["掉帧", "崩溃", "市中心区域"]
+        },
+        {
+          "tag_name": "#SaveCorruption",
+          "sentiment_score": 0.05,
+          "sentiment_label": "Negative",
+          "keywords": ["存档损坏", "丢失进度", "严重"]
+        }
+      ]
+    }
+  },
+  {
+    "user": "网络斗士",
+    "avatar": "https://randomuser.me/api/portraits/women/43.jpg",
+    "game": "Watch Dogs: Legion",
+    "platform": "Steam",
+    "publish_at": "2025-02-03",
+    "rating": 3,
+    "content": "《看门狗：军团》是一款有创意但执行不够完美的游戏。招募系统是一大亮点，能够从伦敦街头招募任何人加入DedSec组织，每个角色都有独特技能，这点非常新颖。游戏世界的设计也很精细，未来伦敦的场景令人印象深刻。但问题在于游戏缺乏足够的内容深度，任务类型比较有限且重复性高。控制方面也有些问题，尤其是驾驶时的操控感不够精准。技术问题不少，除了常见的帧率波动外，我还遇到了几次游戏突然崩溃的情况。角色之间的对话也比较刻板，缺乏真实感。总的来说，这是一款有不少创新点但也有明显短板的游戏。",
+    "tag_details": {
+      "story": [
+        {
+          "tag_name": "#RecruitmentStories",
+          "sentiment_score": 0.8,
+          "sentiment_label": "Positive",
+          "keywords": ["招募系统", "独特技能", "新颖"]
+        },
+        {
+          "tag_name": "#MissionVariety",
+          "sentiment_score": 0.35,
+          "sentiment_label": "Negative",
+          "keywords": ["任务类型", "有限", "重复性高"]
+        },
+        {
+          "tag_name": "#DialogueQuality",
+          "sentiment_score": 0.3,
+          "sentiment_label": "Negative",
+          "keywords": ["角色对话", "刻板", "缺乏真实感"]
+        }
+      ],
+      "ux": [
+        {
+          "tag_name": "#WorldDesign",
+          "sentiment_score": 0.85,
+          "sentiment_label": "Positive",
+          "keywords": ["游戏世界", "未来伦敦", "精细"]
+        },
+        {
+          "tag_name": "#DrivingControls",
+          "sentiment_score": 0.3,
+          "sentiment_label": "Negative",
+          "keywords": ["驾驶", "操控感", "不精准"]
+        }
+      ],
+      "risk": [
+        {
+          "tag_name": "#FrameRateIssues",
+          "sentiment_score": 0.25,
+          "sentiment_label": "Negative",
+          "keywords": ["帧率波动", "技术问题", "游戏崩溃"]
+        }
+      ]
+    }
+  },
+  {
+    "user": "伦敦猎手",
+    "avatar": "https://randomuser.me/api/portraits/men/51.jpg",
+    "game": "Watch Dogs: Legion",
+    "platform": "Steam",
+    "publish_at": "2025-05-17",
+    "rating": 4,
+    "content": "《看门狗：军团》是一款令人印象深刻的开放世界游戏。最让我喜欢的是可以招募任何NPC加入反抗组织的系统，这让游戏充满了可能性。每个人物都有自己的背景故事和专长，发现并招募特殊能力的队员成为了我在游戏中最大的乐趣。游戏对伦敦的还原度很高，虽然是未来版本，但仍能辨认出许多著名地标。黑客玩法设计得相当不错，解谜元素融入得自然，增加了游戏的策略性。当然，游戏也存在一些问题，比如驾驶系统不够精细，感觉有点飘；偶尔会遇到帧率下降的情况，尤其是在高速移动或使用特效较多的能力时。总体而言，瑕不掩瑜，这是一款值得一玩的作品。",
+    "tag_details": {
+      "story": [
+        {
+          "tag_name": "#RecruitmentStories",
+          "sentiment_score": 0.9,
+          "sentiment_label": "Positive",
+          "keywords": ["招募NPC", "背景故事", "专长"]
+        }
+      ],
+      "ux": [
+        {
+          "tag_name": "#WorldDesign",
+          "sentiment_score": 0.85,
+          "sentiment_label": "Positive",
+          "keywords": ["伦敦还原", "著名地标", "未来版本"]
+        },
+        {
+          "tag_name": "#HackingMechanics",
+          "sentiment_score": 0.8,
+          "sentiment_label": "Positive",
+          "keywords": ["黑客玩法", "解谜元素", "策略性"]
+        },
+        {
+          "tag_name": "#DrivingControls",
+          "sentiment_score": 0.4,
+          "sentiment_label": "Negative",
+          "keywords": ["驾驶系统", "不精细", "飘"]
+        }
+      ],
+      "risk": [
+        {
+          "tag_name": "#FrameRateIssues",
+          "sentiment_score": 0.45,
+          "sentiment_label": "Mixed",
+          "keywords": ["帧率下降", "高速移动", "特效"]
+        }
+      ]
+    }
+  },
+  {
+    "user": "反乌托邦客",
+    "avatar": "https://randomuser.me/api/portraits/women/52.jpg",
+    "game": "Watch Dogs: Legion",
+    "platform": "Steam",
+    "publish_at": "2025-01-27",
+    "rating": 2,
+    "content": "《看门狗：军团》本可以成为一款出色的游戏，但它没能实现自己的潜力。招募系统看起来很有创意，但实际上大多数角色之间的差异微乎其微，他们的独特能力在实际游戏中作用有限。游戏的剧情发展缺乏连贯性，由于角色随时可能更换，导致情感连接很难建立。技术问题比比皆是：频繁的帧率下降、游戏崩溃、角色卡在环境中等等。驾驶系统手感很差，车辆操控像是在冰上行驶。黑客工具虽然有趣但深度不够，没有足够的创新来维持长时间的游戏乐趣。唯一值得称赞的是游戏的世界设计，未来伦敦的氛围营造得比较成功，但这不足以弥补其他方面的不足。",
+    "tag_details": {
+      "story": [
+        {
+          "tag_name": "#RecruitmentStories",
+          "sentiment_score": 0.3,
+          "sentiment_label": "Negative",
+          "keywords": ["招募系统", "差异微小", "作用有限"]
+        },
+        {
+          "tag_name": "#StoryPacing",
+          "sentiment_score": 0.25,
+          "sentiment_label": "Negative",
+          "keywords": ["剧情发展", "连贯性", "情感连接"]
+        }
+      ],
+      "ux": [
+        {
+          "tag_name": "#WorldDesign",
+          "sentiment_score": 0.7,
+          "sentiment_label": "Positive",
+          "keywords": ["世界设计", "未来伦敦", "氛围"]
+        },
+        {
+          "tag_name": "#DrivingControls",
+          "sentiment_score": 0.15,
+          "sentiment_label": "Negative",
+          "keywords": ["驾驶系统", "手感差", "冰上行驶"]
+        },
+        {
+          "tag_name": "#HackingMechanics",
+          "sentiment_score": 0.4,
+          "sentiment_label": "Negative",
+          "keywords": ["黑客工具", "深度不够", "创新不足"]
+        }
+      ],
+      "risk": [
+        {
+          "tag_name": "#FrameRateIssues",
+          "sentiment_score": 0.2,
+          "sentiment_label": "Negative",
+          "keywords": ["帧率下降", "游戏崩溃", "角色卡住"]
+        }
+      ]
+    }
+  },
+  {
+    "user": "代码猎人",
+    "avatar": "https://randomuser.me/api/portraits/men/62.jpg",
+    "game": "Watch Dogs: Legion",
+    "platform": "Steam",
+    "publish_at": "2025-03-05",
+    "rating": 4,
+    "content": "《看门狗：军团》是一款充满创意的开放世界游戏。能够招募任何NPC并利用他们独特的能力完成任务，这一设计让游戏拥有极高的重玩价值。我喜欢游戏中世界对玩家行动的反应系统，当你帮助某个地区的居民时，他们会更容易被招募，这种连贯性很棒。未来伦敦的设计非常出色，既有熟悉的地标，又融入了未来科技元素。游戏的黑客玩法也相当有深度，提供了多种解决方案。不过也存在一些问题：UI导航有时比较繁琐，需要多次点击才能完成操作；偶尔会遇到任务触发条件不明确的情况，导致卡关。总的来说，如果你喜欢具有创新玩法的开放世界游戏，《看门狗：军团》值得一试。",
+    "tag_details": {
+      "story": [
+        {
+          "tag_name": "#RecruitmentStories",
+          "sentiment_score": 0.85,
+          "sentiment_label": "Positive",
+          "keywords": ["招募NPC", "独特能力", "重玩价值"]
+        },
+        {
+          "tag_name": "#WorldReactions",
+          "sentiment_score": 0.8,
+          "sentiment_label": "Positive",
+          "keywords": ["世界反应", "帮助居民", "连贯性"]
+        }
+      ],
+      "ux": [
+        {
+          "tag_name": "#WorldDesign",
+          "sentiment_score": 0.9,
+          "sentiment_label": "Positive",
+          "keywords": ["未来伦敦", "地标", "科技元素"]
+        },
+        {
+          "tag_name": "#HackingMechanics",
+          "sentiment_score": 0.85,
+          "sentiment_label": "Positive",
+          "keywords": ["黑客玩法", "深度", "多种解决方案"]
+        },
+        {
+          "tag_name": "#MenuNavigation",
+          "sentiment_score": 0.4,
+          "sentiment_label": "Negative",
+          "keywords": ["UI导航", "繁琐", "多次点击"]
+        }
+      ],
+      "risk": [
+        {
+          "tag_name": "#QuestBugs",
+          "sentiment_score": 0.45,
+          "sentiment_label": "Mixed",
+          "keywords": ["任务触发", "不明确", "卡关"]
+        }
+      ]
+    }
+  },
+  {
+    "user": "黑客女王",
+    "avatar": "https://randomuser.me/api/portraits/women/26.jpg",
+    "game": "Watch Dogs: Legion",
+    "platform": "Steam",
+    "publish_at": "2025-04-30",
+    "rating": 3,
+    "content": "《看门狗：军团》是一款想法大胆但执行不够到位的游戏。招募系统是其最大创新点，能招募几乎任何NPC加入你的黑客团队，每个角色都有自己的特殊能力。游戏的世界建设做得不错，未来伦敦既熟悉又陌生，充满了科幻感。但游戏存在几个明显问题：任务设计缺乏多样性，到后期基本都是重复的入侵和潜入；角色虽然表面上各不相同，但实际上大多数对话和反应都很类似，削弱了角色的独特性；技术问题也很明显，包括频繁的帧率下降和偶尔的游戏崩溃。驾驶控制也不够精准，感觉很飘。总的来说，这是一款有创意但不够精致的作品。",
+    "tag_details": {
+      "story": [
+        {
+          "tag_name": "#RecruitmentStories",
+          "sentiment_score": 0.75,
+          "sentiment_label": "Positive",
+          "keywords": ["招募系统", "特殊能力", "NPC"]
+        },
+        {
+          "tag_name": "#MissionVariety",
+          "sentiment_score": 0.3,
+          "sentiment_label": "Negative",
+          "keywords": ["任务设计", "缺乏多样性", "重复"]
+        },
+        {
+          "tag_name": "#DialogueQuality",
+          "sentiment_score": 0.35,
+          "sentiment_label": "Negative",
+          "keywords": ["角色对话", "反应类似", "独特性"]
+        }
+      ],
+      "ux": [
+        {
+          "tag_name": "#WorldDesign",
+          "sentiment_score": 0.8,
+          "sentiment_label": "Positive",
+          "keywords": ["世界建设", "未来伦敦", "科幻感"]
+        },
+        {
+          "tag_name": "#DrivingControls",
+          "sentiment_score": 0.25,
+          "sentiment_label": "Negative",
+          "keywords": ["驾驶控制", "不精准", "飘"]
+        }
+      ],
+      "risk": [
+        {
+          "tag_name": "#FrameRateIssues",
+          "sentiment_score": 0.3,
+          "sentiment_label": "Negative",
+          "keywords": ["帧率下降", "频繁", "游戏崩溃"]
+        }
+      ]
+    }
+  },
+  {
+    "user": "数字自由战士",
+    "avatar": "https://randomuser.me/api/portraits/men/71.jpg",
+    "game": "Watch Dogs: Legion",
+    "platform": "Steam",
+    "publish_at": "2025-05-25",
+    "rating": 5,
+    "content": "《看门狗：军团》是一款非常有创意的开放世界游戏。招募系统简直是天才之作，每个伦敦市民都可能成为你的队友，他们各自有独特的技能和背景故事。我特别喜欢当我完成某些事件后，能看到游戏世界对我行动的反应，这增加了游戏的连贯性和逻辑性。未来伦敦的构建极其精细，从著名地标到普通街道，都充满了细节和科技感。黑客玩法非常有趣，提供了多种解决问题的方法，鼓励创造性思维。虽然游戏偶尔会有帧率波动，但这些小问题完全不影响我对它的喜爱。驾驶系统也比前作有明显改进，虽然还不完美但已经相当可靠。总之，如果你喜欢开放世界游戏和黑客题材，这绝对是不可错过的佳作。",
+    "tag_details": {
+      "story": [
+        {
+          "tag_name": "#RecruitmentStories",
+          "sentiment_score": 0.95,
+          "sentiment_label": "Positive",
+          "keywords": ["招募系统", "独特技能", "背景故事"]
+        },
+        {
+          "tag_name": "#WorldReactions",
+          "sentiment_score": 0.9,
+          "sentiment_label": "Positive",
+          "keywords": ["游戏世界", "行动反应", "连贯性"]
+        }
+      ],
+      "ux": [
+        {
+          "tag_name": "#WorldDesign",
+          "sentiment_score": 0.95,
+          "sentiment_label": "Positive",
+          "keywords": ["未来伦敦", "精细", "细节"]
+        },
+        {
+          "tag_name": "#HackingMechanics",
+          "sentiment_score": 0.9,
+          "sentiment_label": "Positive",
+          "keywords": ["黑客玩法", "多种解决方法", "创造性"]
+        },
+        {
+          "tag_name": "#DrivingControls",
+          "sentiment_score": 0.7,
+          "sentiment_label": "Positive",
+          "keywords": ["驾驶系统", "改进", "可靠"]
+        }
+      ],
+      "risk": [
+        {
+          "tag_name": "#FrameRateIssues",
+          "sentiment_score": 0.6,
+          "sentiment_label": "Mixed",
+          "keywords": ["帧率波动", "偶尔", "小问题"]
+        }
+      ]
+    }
+  }
+] 

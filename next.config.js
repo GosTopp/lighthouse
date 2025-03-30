@@ -1,5 +1,5 @@
 /** @type {import('next').NextConfig} */
-module.exports = {
+const nextConfig = {
   eslint: {
     // 忽略 ESLint 错误以允许构建继续
     ignoreDuringBuilds: true
@@ -8,3 +8,5 @@ module.exports = {
     position: "bottom-right",
   },
 };
+
+module.exports = nextConfig;

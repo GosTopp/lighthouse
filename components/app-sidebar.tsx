@@ -38,7 +38,7 @@ const data = {
   user: {
     name: "Jiaoliang",
     email: "jiaoliang.chen@artefact.com",
-    avatar: "",
+    avatar: "/avatars/account_avarta.png",
   },
   workspace: [
     {
@@ -75,7 +75,7 @@ const data = {
     },
     {
       name: "Tagging Assistant",
-      url: "/word-assistant",
+      url: "/tagging-assistant",
       icon: IconFileWord,
     },
   ],

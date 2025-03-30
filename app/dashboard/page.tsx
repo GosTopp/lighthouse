@@ -9,6 +9,8 @@ import {
 } from "@/components/ui/sidebar"
 
 import data from "./data.json"
+import tagsData from "./tags.json"
+import { type TagData } from "@/components/data-table"
 
 export default function Page() {
   return (
@@ -30,7 +32,7 @@ export default function Page() {
               <div className="px-4 lg:px-6">
                 <ChartAreaInteractive />
               </div>
-              <DataTable data={data} />
+              <DataTable data={data} tagsData={tagsData as unknown as TagData[]} />
             </div>
           </div>
         </div>

@@ -1,0 +1,474 @@
+[
+  {
+    "user": "热带风暴",
+    "avatar": "https://randomuser.me/api/portraits/men/23.jpg",
+    "game": "Far Cry 6",
+    "platform": "Steam",
+    "publish_at": "2025-01-15",
+    "rating": 4,
+    "content": "育碧的《孤岛惊魂6》在武器手感上真的拿捏得很到位！每把枪都有其独特的后坐力和音效，尤其是使用各种改装部件后，手感变化明显。开放世界的探索系统设计也很合理，既有成就感又不会太难找到隐藏收集品。不过制作系统确实有点复杂了，菜单层级太多，有时候只是想做个简单的改装，却要翻好几层菜单。总体来说，这是一款优秀的开放世界FPS游戏，但有些系统可以设计得更加精简。",
+    "tag_details": {
+      "ux": [
+        {
+          "tag_name": "#WeaponFeel",
+          "sentiment_score": 0.85,
+          "sentiment_label": "Positive",
+          "keywords": ["武器手感", "后坐力", "改装部件"]
+        },
+        {
+          "tag_name": "#OpenWorldNavigation",
+          "sentiment_score": 0.78,
+          "sentiment_label": "Positive",
+          "keywords": ["开放世界", "探索系统", "隐藏收集品"]
+        },
+        {
+          "tag_name": "#CraftingSystem",
+          "sentiment_score": 0.4,
+          "sentiment_label": "Negative",
+          "keywords": ["制作系统", "菜单层级", "复杂"]
+        }
+      ]
+    }
+  },
+  {
+    "user": "独狼猎手",
+    "avatar": "https://randomuser.me/api/portraits/men/31.jpg",
+    "game": "Far Cry 6",
+    "platform": "Steam",
+    "publish_at": "2025-02-08",
+    "rating": 5,
+    "content": "这绝对是系列最好的反派塑造！Giancarlo Esposito饰演的独裁者Anton真是太有魅力了，残忍中带着一种扭曲的父爱，让人恨不起来。每次他出现在镜头前，画面的张力立刻就提升了。游戏世界也做得非常精彩，每个角落都有故事，环境细节丰富，从密林到城市的场景变化给人很强的沉浸感。武器手感一如既往地出色，尤其是使用不同类型的枪械时能明显感受到差异。唯一的缺点是任务类型有些重复，大多是去某地清理敌人或摧毁目标，希望能有更多创新型任务。",
+    "tag_details": {
+      "story": [
+        {
+          "tag_name": "#VillainQuality",
+          "sentiment_score": 0.92,
+          "sentiment_label": "Positive",
+          "keywords": ["反派", "Anton", "Giancarlo Esposito"]
+        },
+        {
+          "tag_name": "#WorldBuilding",
+          "sentiment_score": 0.85,
+          "sentiment_label": "Positive",
+          "keywords": ["游戏世界", "环境细节", "沉浸感"]
+        },
+        {
+          "tag_name": "#MissionVariety",
+          "sentiment_score": 0.35,
+          "sentiment_label": "Negative",
+          "keywords": ["任务类型", "重复", "创新型任务"]
+        }
+      ],
+      "ux": [
+        {
+          "tag_name": "#WeaponFeel",
+          "sentiment_score": 0.85,
+          "sentiment_label": "Positive",
+          "keywords": ["武器手感", "枪械差异", "出色"]
+        }
+      ]
+    }
+  },
+  {
+    "user": "丛林幽灵",
+    "avatar": "https://randomuser.me/api/portraits/men/56.jpg",
+    "game": "Far Cry 6",
+    "platform": "Steam",
+    "publish_at": "2025-03-20",
+    "rating": 3,
+    "content": "这款游戏褒贬参半。首先，敌人AI的行为实在是太不智能了，有时候我就站在他们面前，他们却完全无视我，直到我开枪才反应过来。游戏的开放世界探索和导航做得不错，地图标记清晰，寻宝和探索有趣味性。不得不称赞的是游戏的反派塑造和世界观设定，引人入胜，尤其是通过笔记和环境讲述的许多小故事很有深度。但是有个重大问题，我遇到了存档损坏，损失了5小时的游戏进度。希望开发者能重视这些技术问题，提供更稳定的游戏体验。",
+    "tag_details": {
+      "ux": [
+        {
+          "tag_name": "#OpenWorldNavigation",
+          "sentiment_score": 0.75,
+          "sentiment_label": "Positive",
+          "keywords": ["开放世界", "地图标记", "探索"]
+        }
+      ],
+      "story": [
+        {
+          "tag_name": "#VillainQuality",
+          "sentiment_score": 0.85,
+          "sentiment_label": "Positive",
+          "keywords": ["反派塑造", "世界观", "小故事"]
+        }
+      ],
+      "risk": [
+        {
+          "tag_name": "#AIGlitches",
+          "sentiment_score": 0.2,
+          "sentiment_label": "Negative",
+          "keywords": ["敌人AI", "不智能", "无视玩家"]
+        },
+        {
+          "tag_name": "#SaveCorruption",
+          "sentiment_score": 0.1,
+          "sentiment_label": "Negative",
+          "keywords": ["存档损坏", "损失进度", "技术问题"]
+        }
+      ]
+    }
+  },
+  {
+    "user": "革命烈焰",
+    "avatar": "https://randomuser.me/api/portraits/women/27.jpg",
+    "game": "Far Cry 6",
+    "platform": "Steam",
+    "publish_at": "2025-04-03",
+    "rating": 4,
+    "content": "作为一款开放世界FPS游戏，《孤岛惊魂6》提供了令人满意的体验。游戏中的武器手感极佳，尤其是使用不同类型的武器进行战斗时，能明显感受到差异。游戏世界的细节也做得很棒，从繁华的城市到神秘的丛林，每个场景都充满特色。不过我对游戏的制作系统有些意见，操作界面不够直观，需要在多个菜单之间来回切换。剧情方面，反派角色的塑造令人印象深刻，但主线任务缺乏变化，到后期会感到一些重复。联机功能也不够稳定，经常遇到掉线问题。希望未来的更新能解决这些问题。",
+    "tag_details": {
+      "ux": [
+        {
+          "tag_name": "#WeaponFeel",
+          "sentiment_score": 0.88,
+          "sentiment_label": "Positive",
+          "keywords": ["武器手感", "战斗", "不同类型"]
+        },
+        {
+          "tag_name": "#CraftingSystem",
+          "sentiment_score": 0.3,
+          "sentiment_label": "Negative",
+          "keywords": ["制作系统", "操作界面", "菜单切换"]
+        }
+      ],
+      "story": [
+        {
+          "tag_name": "#VillainQuality",
+          "sentiment_score": 0.85,
+          "sentiment_label": "Positive",
+          "keywords": ["反派角色", "印象深刻", "塑造"]
+        },
+        {
+          "tag_name": "#MissionVariety",
+          "sentiment_score": 0.4,
+          "sentiment_label": "Negative",
+          "keywords": ["主线任务", "缺乏变化", "重复"]
+        },
+        {
+          "tag_name": "#WorldBuilding",
+          "sentiment_score": 0.85,
+          "sentiment_label": "Positive",
+          "keywords": ["游戏世界", "细节", "场景特色"]
+        }
+      ],
+      "risk": [
+        {
+          "tag_name": "#ServerIssues",
+          "sentiment_score": 0.25,
+          "sentiment_label": "Negative",
+          "keywords": ["联机功能", "掉线", "不稳定"]
+        }
+      ]
+    }
+  },
+  {
+    "user": "雇佣兵团",
+    "avatar": "https://randomuser.me/api/portraits/men/78.jpg",
+    "game": "Far Cry 6",
+    "platform": "Steam",
+    "publish_at": "2025-02-27",
+    "rating": 2,
+    "content": "不得不说我对《孤岛惊魂6》感到很失望。虽然游戏的武器手感和开放世界探索还算可以，但太多技术问题影响了游戏体验。敌人AI智商堪忧，有时候明明我就在他们面前，他们却完全看不见我；而有时候我明明藏得很好，他们却能透视一般发现我。更让人难以接受的是，我遇到了严重的存档损坏问题，一次崩溃后丢失了近8小时的游戏进度！联机模式也很不稳定，经常掉线。任务类型单一重复，到后期就是不断地清理据点，缺乏创新。希望育碧能重视这些问题，未来的作品做得更加完善。",
+    "tag_details": {
+      "ux": [
+        {
+          "tag_name": "#WeaponFeel",
+          "sentiment_score": 0.6,
+          "sentiment_label": "Mixed",
+          "keywords": ["武器手感", "可以", "不错"]
+        },
+        {
+          "tag_name": "#OpenWorldNavigation",
+          "sentiment_score": 0.55,
+          "sentiment_label": "Mixed",
+          "keywords": ["开放世界", "探索", "还算可以"]
+        }
+      ],
+      "story": [
+        {
+          "tag_name": "#MissionVariety",
+          "sentiment_score": 0.2,
+          "sentiment_label": "Negative",
+          "keywords": ["任务类型", "单一重复", "清理据点"]
+        }
+      ],
+      "risk": [
+        {
+          "tag_name": "#AIGlitches",
+          "sentiment_score": 0.15,
+          "sentiment_label": "Negative",
+          "keywords": ["敌人AI", "智商堪忧", "透视"]
+        },
+        {
+          "tag_name": "#SaveCorruption",
+          "sentiment_score": 0.1,
+          "sentiment_label": "Negative",
+          "keywords": ["存档损坏", "崩溃", "丢失进度"]
+        },
+        {
+          "tag_name": "#ServerIssues",
+          "sentiment_score": 0.2,
+          "sentiment_label": "Negative",
+          "keywords": ["联机模式", "不稳定", "掉线"]
+        }
+      ]
+    }
+  },
+  {
+    "user": "雨林猎手",
+    "avatar": "https://randomuser.me/api/portraits/men/65.jpg",
+    "game": "Far Cry 6",
+    "platform": "Steam",
+    "publish_at": "2025-05-12",
+    "rating": 5,
+    "content": "《孤岛惊魂6》真的给我带来了超棒的游戏体验！游戏的开放世界设计非常自由，探索系统也很合理，让人有动力去寻找隐藏的宝藏和收集品。武器操作手感极佳，尤其是在使用各种特殊武器时，有种独特的满足感。游戏世界的环境讲述了很多有趣的故事，从笔记、录音到小型任务中的对话，都能感受到深度。特别要称赞的是反派Anton的塑造，Giancarlo Esposito的表演太出色了，让人印象深刻。虽然游戏的制作系统有些复杂，但总体不影响游戏乐趣。强烈推荐给所有动作射击游戏爱好者！",
+    "tag_details": {
+      "ux": [
+        {
+          "tag_name": "#WeaponFeel",
+          "sentiment_score": 0.9,
+          "sentiment_label": "Positive",
+          "keywords": ["武器操作", "手感", "特殊武器"]
+        },
+        {
+          "tag_name": "#OpenWorldNavigation",
+          "sentiment_score": 0.85,
+          "sentiment_label": "Positive",
+          "keywords": ["开放世界", "探索系统", "隐藏宝藏"]
+        },
+        {
+          "tag_name": "#CraftingSystem",
+          "sentiment_score": 0.5,
+          "sentiment_label": "Mixed",
+          "keywords": ["制作系统", "复杂", "不影响乐趣"]
+        }
+      ],
+      "story": [
+        {
+          "tag_name": "#VillainQuality",
+          "sentiment_score": 0.95,
+          "sentiment_label": "Positive",
+          "keywords": ["反派Anton", "Giancarlo Esposito", "表演"]
+        },
+        {
+          "tag_name": "#WorldBuilding",
+          "sentiment_score": 0.88,
+          "sentiment_label": "Positive",
+          "keywords": ["游戏世界", "环境", "故事深度"]
+        }
+      ]
+    }
+  },
+  {
+    "user": "游猎行者",
+    "avatar": "https://randomuser.me/api/portraits/men/15.jpg",
+    "game": "Far Cry 6",
+    "platform": "Steam",
+    "publish_at": "2025-01-30",
+    "rating": 3,
+    "content": "《孤岛惊魂6》是一款标准的育碧开放世界游戏，优点和缺点都很明显。开放世界探索还算流畅，武器种类丰富，射击手感不错。但是游戏的主线任务设计重复单调，大部分都是去某地清理敌人或者炸毁目标，缺乏创新。敌人AI也存在问题，有时候反应过度灵敏，有时候又反应迟钝。游戏世界的构建和故事背景倒是有吸引力，尤其是反派角色塑造得相当出色。制作系统太过复杂，菜单设计不够直观。总体来说，如果你是系列粉丝，会找到熟悉的乐趣；如果期待有创新突破，可能会有些失望。",
+    "tag_details": {
+      "ux": [
+        {
+          "tag_name": "#WeaponFeel",
+          "sentiment_score": 0.75,
+          "sentiment_label": "Positive",
+          "keywords": ["武器种类", "射击手感", "丰富"]
+        },
+        {
+          "tag_name": "#OpenWorldNavigation",
+          "sentiment_score": 0.65,
+          "sentiment_label": "Mixed",
+          "keywords": ["开放世界", "探索", "流畅"]
+        },
+        {
+          "tag_name": "#CraftingSystem",
+          "sentiment_score": 0.3,
+          "sentiment_label": "Negative",
+          "keywords": ["制作系统", "复杂", "菜单设计"]
+        }
+      ],
+      "story": [
+        {
+          "tag_name": "#VillainQuality",
+          "sentiment_score": 0.85,
+          "sentiment_label": "Positive",
+          "keywords": ["反派角色", "塑造", "出色"]
+        },
+        {
+          "tag_name": "#WorldBuilding",
+          "sentiment_score": 0.75,
+          "sentiment_label": "Positive",
+          "keywords": ["游戏世界", "故事背景", "吸引力"]
+        },
+        {
+          "tag_name": "#MissionVariety",
+          "sentiment_score": 0.25,
+          "sentiment_label": "Negative",
+          "keywords": ["主线任务", "重复单调", "缺乏创新"]
+        }
+      ],
+      "risk": [
+        {
+          "tag_name": "#AIGlitches",
+          "sentiment_score": 0.3,
+          "sentiment_label": "Negative",
+          "keywords": ["敌人AI", "反应不一致", "问题"]
+        }
+      ]
+    }
+  },
+  {
+    "user": "火箭先生",
+    "avatar": "https://randomuser.me/api/portraits/men/42.jpg",
+    "game": "Far Cry 6",
+    "platform": "Steam",
+    "publish_at": "2025-03-05",
+    "rating": 4,
+    "content": "《孤岛惊魂6》在武器设计和手感上做得相当出色，每把枪的后坐力、声音和手感都有明显区别，给人很大的满足感。游戏的开放世界美丽壮观，从密林到城市都有不同的氛围，探索起来很有乐趣。反派角色Anton的塑造也非常成功，有深度且令人印象深刻。但游戏的制作系统确实比较复杂，对新手不太友好，需要花时间摸索。任务设计也存在重复性问题，后期会有些单调。值得一提的是，我遇到了敌人AI行为异常的情况，有时候他们的反应不合逻辑。总体而言，这是一款不完美但很有趣的开放世界射击游戏。",
+    "tag_details": {
+      "ux": [
+        {
+          "tag_name": "#WeaponFeel",
+          "sentiment_score": 0.9,
+          "sentiment_label": "Positive",
+          "keywords": ["武器设计", "手感", "满足感"]
+        },
+        {
+          "tag_name": "#OpenWorldNavigation",
+          "sentiment_score": 0.85,
+          "sentiment_label": "Positive",
+          "keywords": ["开放世界", "美丽壮观", "探索"]
+        },
+        {
+          "tag_name": "#CraftingSystem",
+          "sentiment_score": 0.4,
+          "sentiment_label": "Negative",
+          "keywords": ["制作系统", "复杂", "不友好"]
+        }
+      ],
+      "story": [
+        {
+          "tag_name": "#VillainQuality",
+          "sentiment_score": 0.85,
+          "sentiment_label": "Positive",
+          "keywords": ["反派角色", "Anton", "深度"]
+        },
+        {
+          "tag_name": "#MissionVariety",
+          "sentiment_score": 0.4,
+          "sentiment_label": "Negative",
+          "keywords": ["任务设计", "重复性", "单调"]
+        }
+      ],
+      "risk": [
+        {
+          "tag_name": "#AIGlitches",
+          "sentiment_score": 0.3,
+          "sentiment_label": "Negative",
+          "keywords": ["敌人AI", "行为异常", "不合逻辑"]
+        }
+      ]
+    }
+  },
+  {
+    "user": "爆炸专家",
+    "avatar": "https://randomuser.me/api/portraits/men/59.jpg",
+    "game": "Far Cry 6",
+    "platform": "Steam",
+    "publish_at": "2025-04-22",
+    "rating": 5,
+    "content": "作为《孤岛惊魂》系列的忠实粉丝，我必须说《孤岛惊魂6》绝对是系列的巅峰之作！武器手感极其出色，每一把枪都有其独特的特性和反馈，让战斗体验超级爽快。开放世界的设计也很优秀，探索系统鼓励玩家探索每一个角落，而且不会觉得太过繁琐。游戏的反派角色塑造得极其成功，Anton的表演让人恨不起来却又畏惧。游戏世界充满了精彩的细节，环境叙事做得很到位，能讲述许多不言而喻的故事。虽然有些人抱怨任务重复，但我觉得每个任务都有其独特的设置和背景，让我乐在其中。如果你是动作冒险游戏的爱好者，这绝对不容错过！",
+    "tag_details": {
+      "ux": [
+        {
+          "tag_name": "#WeaponFeel",
+          "sentiment_score": 0.95,
+          "sentiment_label": "Positive",
+          "keywords": ["武器手感", "独特特性", "爽快"]
+        },
+        {
+          "tag_name": "#OpenWorldNavigation",
+          "sentiment_score": 0.9,
+          "sentiment_label": "Positive",
+          "keywords": ["开放世界", "探索系统", "不繁琐"]
+        }
+      ],
+      "story": [
+        {
+          "tag_name": "#VillainQuality",
+          "sentiment_score": 0.95,
+          "sentiment_label": "Positive",
+          "keywords": ["反派塑造", "Anton", "表演"]
+        },
+        {
+          "tag_name": "#WorldBuilding",
+          "sentiment_score": 0.9,
+          "sentiment_label": "Positive",
+          "keywords": ["游戏世界", "环境叙事", "细节"]
+        },
+        {
+          "tag_name": "#MissionVariety",
+          "sentiment_score": 0.75,
+          "sentiment_label": "Positive",
+          "keywords": ["任务设置", "背景", "独特"]
+        }
+      ]
+    }
+  },
+  {
+    "user": "潜行大师",
+    "avatar": "https://randomuser.me/api/portraits/women/36.jpg",
+    "game": "Far Cry 6",
+    "platform": "Steam",
+    "publish_at": "2025-05-20",
+    "rating": 3,
+    "content": "《孤岛惊魂6》是一款中规中矩的开放世界射击游戏。武器手感确实不错，尤其是狙击步枪和霰弹枪的打击感很强。游戏的反派Anton塑造得很成功，是系列中最有魅力的反派之一。但是游戏存在几个明显问题：敌人AI智能太低，有时完全无视玩家；制作系统菜单设计不够直观，需要在多个层级之间来回切换；最严重的是，我遇到了两次游戏崩溃导致的存档损坏，损失了数小时的游戏进度。此外，任务设计也比较单调，到后期主要就是不断清理据点和收集资源，缺乏变化。总体而言，如果你看重剧情和世界观，会喜欢这款游戏；但如果你追求创新玩法，可能会失望。",
+    "tag_details": {
+      "ux": [
+        {
+          "tag_name": "#WeaponFeel",
+          "sentiment_score": 0.8,
+          "sentiment_label": "Positive",
+          "keywords": ["武器手感", "狙击步枪", "霰弹枪"]
+        },
+        {
+          "tag_name": "#CraftingSystem",
+          "sentiment_score": 0.3,
+          "sentiment_label": "Negative",
+          "keywords": ["制作系统", "菜单设计", "层级切换"]
+        }
+      ],
+      "story": [
+        {
+          "tag_name": "#VillainQuality",
+          "sentiment_score": 0.9,
+          "sentiment_label": "Positive",
+          "keywords": ["反派Anton", "塑造", "魅力"]
+        },
+        {
+          "tag_name": "#MissionVariety",
+          "sentiment_score": 0.25,
+          "sentiment_label": "Negative",
+          "keywords": ["任务设计", "单调", "清理据点"]
+        }
+      ],
+      "risk": [
+        {
+          "tag_name": "#AIGlitches",
+          "sentiment_score": 0.2,
+          "sentiment_label": "Negative",
+          "keywords": ["敌人AI", "智能低", "无视玩家"]
+        },
+        {
+          "tag_name": "#SaveCorruption",
+          "sentiment_score": 0.15,
+          "sentiment_label": "Negative",
+          "keywords": ["游戏崩溃", "存档损坏", "损失进度"]
+        }
+      ]
+    }
+  }
+] 

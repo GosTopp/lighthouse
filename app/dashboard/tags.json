@@ -5,24 +5,1016 @@
       "tag_details": {
         "ux": [
             {
-            "tag": "#LoadingTime",
+          "tag_name": "#LoadingTime",
+          "tag_description": "关于游戏加载时间长短和流畅度的讨论",
+          "sentiment_score": 0.3,
+          "sentiment_label": "Negative",
             "volume": 210,
-            "sample_comment": "Load times could be improved."
+          "trend": 1.15,
+          "tgi": 1.3,
+          "sample_comment": "加载时间太长，每次转场都要等很久。"
+        },
+        {
+          "tag_name": "#ControlsResponsiveness",
+          "tag_description": "游戏控制响应性和操作流畅度的反馈",
+          "sentiment_score": 0.4,
+          "sentiment_label": "Negative",
+          "volume": 185,
+          "trend": 0.92,
+          "tgi": 1.1,
+          "sample_comment": "攀爬时角色反应迟钝，影响游戏体验。"
+        },
+        {
+          "tag_name": "#UIClarity",
+          "tag_description": "用户界面清晰度和易用性的评价",
+          "sentiment_score": 0.7,
+          "sentiment_label": "Positive",
+          "volume": 156,
+          "trend": 1.05,
+          "tgi": 0.95,
+          "sample_comment": "地图界面设计直观，任务标记清晰明了。"
             }
         ],
         "story": [
             {
-            "tag": "#CharacterDepth",
+          "tag_name": "#CharacterDepth",
+          "tag_description": "角色塑造深度和背景故事丰富程度",
+          "sentiment_score": 0.8,
+          "sentiment_label": "Positive",
             "volume": 300,
-            "sample_comment": "Main characters feel well-written."
-            }
-            
+          "trend": 1.25,
+          "tgi": 1.4,
+          "sample_comment": "主角设定丰富，背景故事非常吸引人。"
+        },
+        {
+          "tag_name": "#PlotTwists",
+          "tag_description": "剧情转折和故事发展的意外性",
+          "sentiment_score": 0.75,
+          "sentiment_label": "Positive",
+          "volume": 243,
+          "trend": 1.18,
+          "tgi": 1.25,
+          "sample_comment": "剧情转折出人意料，但又合情合理。"
+        },
+        {
+          "tag_name": "#HistoricalAccuracy",
+          "tag_description": "历史背景和时代细节的准确性",
+          "sentiment_score": 0.72,
+          "sentiment_label": "Positive",
+          "volume": 198,
+          "trend": 0.98,
+          "tgi": 1.15,
+          "sample_comment": "日本幕府时代的历史细节处理得很到位。"
+        }
+      ],
+      "risk": [
+        {
+          "tag_name": "#BugReport",
+          "tag_description": "游戏中出现的bug和技术问题报告",
+          "sentiment_score": 0.2,
+          "sentiment_label": "Negative",
+          "volume": 162,
+          "trend": 0.85,
+          "tgi": 1.2,
+          "sample_comment": "部分玩家遇到游戏崩溃问题。"
+        },
+        {
+          "tag_name": "#ProgressionIssue",
+          "tag_description": "游戏进度和任务触发相关问题",
+          "sentiment_score": 0.25,
+          "sentiment_label": "Negative",
+          "volume": 134,
+          "trend": 0.78,
+          "tgi": 1.05,
+          "sample_comment": "有时任务无法触发，导致卡进度。"
+        },
+        {
+          "tag_name": "#PerformanceDrops",
+          "tag_description": "游戏性能下降和帧率波动问题",
+          "sentiment_score": 0.3,
+          "sentiment_label": "Negative",
+          "volume": 120,
+          "trend": 0.92,
+          "tgi": 0.98,
+          "sample_comment": "在人群密集场景帧率明显下降。"
+        }
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "game": "Far Cry 6",
+    "tag_details": {
+      "ux": [
+        {
+          "tag_name": "#WeaponFeel",
+          "tag_description": "武器操作手感和反馈的评价",
+          "sentiment_score": 0.85,
+          "sentiment_label": "Positive",
+          "volume": 257,
+          "trend": 1.12,
+          "tgi": 1.35,
+          "sample_comment": "武器手感极佳，每把枪都有独特的反馈。"
+        },
+        {
+          "tag_name": "#OpenWorldNavigation",
+          "tag_description": "开放世界导航和探索系统的体验",
+          "sentiment_score": 0.78,
+          "sentiment_label": "Positive",
+          "volume": 231,
+          "trend": 1.05,
+          "tgi": 1.18,
+          "sample_comment": "开放世界导航系统设计合理，探索感很强。"
+        },
+        {
+          "tag_name": "#CraftingSystem",
+          "tag_description": "物品制作系统的复杂度和易用性",
+          "sentiment_score": 0.4,
+          "sentiment_label": "Negative",
+          "volume": 176,
+          "trend": 0.92,
+          "tgi": 0.85,
+          "sample_comment": "制作系统太复杂，菜单层级过多。"
+        }
+      ],
+      "story": [
+        {
+          "tag_name": "#VillainQuality",
+          "tag_description": "游戏反派角色的魅力和表演质量",
+          "sentiment_score": 0.88,
+          "sentiment_label": "Positive",
+          "volume": 312,
+          "trend": 1.28,
+          "tgi": 1.45,
+          "sample_comment": "反派角色魅力十足，表演非常出色。"
+        },
+        {
+          "tag_name": "#MissionVariety",
+          "tag_description": "任务类型多样性和创新性评价",
+          "sentiment_score": 0.35,
+          "sentiment_label": "Negative",
+          "volume": 232,
+          "trend": 0.82,
+          "tgi": 0.95,
+          "sample_comment": "任务类型重复，缺乏创新性。"
+        },
+        {
+          "tag_name": "#WorldBuilding",
+          "tag_description": "游戏世界构建和环境叙事的质量",
+          "sentiment_score": 0.82,
+          "sentiment_label": "Positive",
+          "volume": 254,
+          "trend": 1.15,
+          "tgi": 1.25,
+          "sample_comment": "游戏世界充满细节，环境讲述了许多故事。"
+        }
+      ],
+      "risk": [
+        {
+          "tag_name": "#AIGlitches",
+          "tag_description": "AI行为异常和逻辑问题",
+          "sentiment_score": 0.25,
+          "sentiment_label": "Negative",
+          "volume": 148,
+          "trend": 0.75,
+          "tgi": 1.1,
+          "sample_comment": "敌人AI行为不合理，有时完全无视玩家。"
+        },
+        {
+          "tag_name": "#SaveCorruption",
+          "tag_description": "存档损坏和游戏进度丢失问题",
+          "sentiment_score": 0.15,
+          "sentiment_label": "Negative",
+          "volume": 95,
+          "trend": 0.68,
+          "tgi": 1.35,
+          "sample_comment": "有玩家报告存档损坏，损失数小时进度。"
+        },
+        {
+          "tag_name": "#ServerIssues",
+          "tag_description": "服务器稳定性和联机功能问题",
+          "sentiment_score": 0.28,
+          "sentiment_label": "Negative",
+          "volume": 128,
+          "trend": 0.88,
+          "tgi": 1.12,
+          "sample_comment": "联机功能不稳定，频繁掉线。"
+        }
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "game": "Tom Clancy's Rainbow Six Siege",
+    "tag_details": {
+      "ux": [
+        {
+          "tag_name": "#MatchmakingTime",
+          "tag_description": "游戏匹配系统的等待时间和效率",
+          "sentiment_score": 0.25,
+          "sentiment_label": "Negative",
+          "volume": 267,
+          "trend": 0.82,
+          "tgi": 1.28,
+          "sample_comment": "匹配时间过长，等待游戏开始很烦人。"
+        },
+        {
+          "tag_name": "#HitRegistration",
+          "tag_description": "射击命中判定的准确性和稳定性",
+          "sentiment_score": 0.2,
+          "sentiment_label": "Negative",
+          "volume": 324,
+          "trend": 0.75,
+          "tgi": 1.52,
+          "sample_comment": "命中判定不准确，有时明显击中却不造成伤害。"
+        },
+        {
+          "tag_name": "#MenuDesign",
+          "tag_description": "菜单界面设计和导航易用性",
+          "sentiment_score": 0.35,
+          "sentiment_label": "Negative",
+          "volume": 135,
+          "trend": 0.92,
+          "tgi": 0.85,
+          "sample_comment": "菜单导航复杂，找到特定选项需要多次点击。"
+        }
+      ],
+      "story": [
+        {
+          "tag_name": "#OperatorBackground",
+          "tag_description": "游戏角色背景故事的深度和吸引力",
+          "sentiment_score": 0.8,
+          "sentiment_label": "Positive",
+          "volume": 218,
+          "trend": 1.15,
+          "tgi": 1.22,
+          "sample_comment": "干员背景故事丰富，增加了游戏深度。"
+        },
+        {
+          "tag_name": "#LoreExpansion",
+          "tag_description": "游戏世界观和背景故事的扩展",
+          "sentiment_score": 0.78,
+          "sentiment_label": "Positive",
+          "volume": 184,
+          "trend": 1.25,
+          "tgi": 1.18,
+          "sample_comment": "游戏世界观通过新干员和事件不断扩展，很有吸引力。"
+        },
+        {
+          "tag_name": "#EventNarratives",
+          "tag_description": "限时事件中叙事内容的质量",
+          "sentiment_score": 0.75,
+          "sentiment_label": "Positive",
+          "volume": 159,
+          "trend": 1.08,
+          "tgi": 0.95,
+          "sample_comment": "限时事件中的叙事内容质量高，值得关注。"
+        }
+      ],
+      "risk": [
+        {
+          "tag_name": "#Cheaters",
+          "tag_description": "游戏中作弊玩家问题和反作弊系统效果",
+          "sentiment_score": 0.1,
+          "sentiment_label": "Negative",
+          "volume": 402,
+          "trend": 1.45,
+          "tgi": 1.85,
+          "sample_comment": "游戏中作弊玩家数量增多，影响游戏体验。"
+        },
+        {
+          "tag_name": "#TechnicalDebt",
+          "tag_description": "游戏长期技术问题积累和修复进度",
+          "sentiment_score": 0.25,
+          "sentiment_label": "Negative",
+          "volume": 147,
+          "trend": 0.85,
+          "tgi": 1.05,
+          "sample_comment": "老问题没有得到解决，新内容却不断推出。"
+        },
+        {
+          "tag_name": "#BalanceIssues",
+          "tag_description": "游戏平衡性问题和角色能力设计",
+          "sentiment_score": 0.3,
+          "sentiment_label": "Negative",
+          "volume": 268,
+          "trend": 1.12,
+          "tgi": 1.35,
+          "sample_comment": "某些干员过强，破坏了游戏平衡性。"
+        }
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "game": "Watch Dogs: Legion",
+    "tag_details": {
+      "ux": [
+        {
+          "tag_name": "#HackingMechanics",
+          "tag_description": "黑客玩法机制的创新性和易用性",
+          "sentiment_score": 0.55,
+          "sentiment_label": "Mixed",
+          "volume": 233,
+          "trend": 0.95,
+          "tgi": 1.25,
+          "sample_comment": "黑客玩法有创意，但操作时菜单过于繁琐。"
+        },
+        {
+          "tag_name": "#CharacterSwitching",
+          "tag_description": "角色切换系统的创新性和流畅度",
+          "sentiment_score": 0.6,
+          "sentiment_label": "Mixed",
+          "volume": 215,
+          "trend": 1.05,
+          "tgi": 1.15,
+          "sample_comment": "角色切换系统独特，但切换过程不够流畅。"
+        },
+        {
+          "tag_name": "#DrivingControls",
+          "tag_description": "车辆驾驶控制的反馈和精准度",
+          "sentiment_score": 0.35,
+          "sentiment_label": "Negative",
+          "volume": 194,
+          "trend": 0.85,
+          "tgi": 0.98,
+          "sample_comment": "驾驶手感不佳，车辆操控感不够精准。"
+        }
+      ],
+      "story": [
+        {
+          "tag_name": "#RecruitmentStories",
+          "tag_description": "招募角色的小故事和背景内容",
+          "sentiment_score": 0.82,
+          "sentiment_label": "Positive",
+          "volume": 287,
+          "trend": 1.22,
+          "tgi": 1.35,
+          "sample_comment": "招募不同人物的小故事很有趣，增加了游戏深度。"
+        },
+        {
+          "tag_name": "#MainPlot",
+          "tag_description": "主线剧情的节奏和吸引力",
+          "sentiment_score": 0.45,
+          "sentiment_label": "Mixed",
+          "volume": 233,
+          "trend": 0.88,
+          "tgi": 1.05,
+          "sample_comment": "主线剧情节奏不稳，高潮部分缺乏冲击力。"
+        },
+        {
+          "tag_name": "#WorldReactions",
+          "tag_description": "游戏世界对玩家行动的反应和连贯性",
+          "sentiment_score": 0.78,
+          "sentiment_label": "Positive",
+          "volume": 176,
+          "trend": 1.12,
+          "tgi": 0.95,
+          "sample_comment": "游戏世界对玩家行动的反应很真实，提高了沉浸感。"
+        }
+      ],
+      "risk": [
+        {
+          "tag_name": "#FrameRateIssues",
+          "tag_description": "游戏帧率问题和性能稳定性",
+          "sentiment_score": 0.25,
+          "sentiment_label": "Negative",
+          "volume": 187,
+          "trend": 0.92,
+          "tgi": 1.15,
+          "sample_comment": "繁忙街区帧率大幅下降，影响游戏体验。"
+        },
+        {
+          "tag_name": "#CrashToDesktop",
+          "tag_description": "游戏崩溃和稳定性问题",
+          "sentiment_score": 0.2,
+          "sentiment_label": "Negative",
+          "volume": 153,
+          "trend": 0.82,
+          "tgi": 1.05,
+          "sample_comment": "长时间游戏后容易崩溃回桌面。"
+        },
+        {
+          "tag_name": "#AudioGlitches",
+          "tag_description": "音频问题和声音同步错误",
+          "sentiment_score": 0.3,
+          "sentiment_label": "Negative",
+          "volume": 119,
+          "trend": 0.78,
+          "tgi": 0.85,
+          "sample_comment": "对话音频有时会突然消失或重叠。"
+        }
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "game": "Assassin's Creed Valhalla",
+    "tag_details": {
+      "ux": [
+        {
+          "tag_name": "#InventoryManagement",
+          "tag_description": "物品栏设计和管理系统的易用性",
+          "sentiment_score": 0.35,
+          "sentiment_label": "Negative",
+          "volume": 224,
+          "trend": 0.88,
+          "tgi": 1.15,
+          "sample_comment": "物品栏管理繁琐，需要更好的分类系统。"
+        },
+        {
+          "tag_name": "#CombatFluidity",
+          "tag_description": "战斗系统的流畅度和打击感",
+          "sentiment_score": 0.85,
+          "sentiment_label": "Positive",
+          "volume": 268,
+          "trend": 1.18,
+          "tgi": 1.32,
+          "sample_comment": "战斗系统流畅，打击感强，特别是双持武器时。"
+        },
+        {
+          "tag_name": "#WorldTraversal",
+          "tag_description": "世界探索和移动系统的设计",
+          "sentiment_score": 0.78,
+          "sentiment_label": "Positive",
+          "volume": 195,
+          "trend": 1.05,
+          "tgi": 1.08,
+          "sample_comment": "世界探索设计良好，骑马和划船感觉自然。"
+        }
+      ],
+      "story": [
+        {
+          "tag_name": "#MythologyIntegration",
+          "tag_description": "神话元素与游戏故事的融合度",
+          "sentiment_score": 0.82,
+          "sentiment_label": "Positive",
+          "volume": 276,
+          "trend": 1.25,
+          "tgi": 1.38,
+          "sample_comment": "北欧神话元素融入故事的方式很巧妙。"
+        },
+        {
+          "tag_name": "#SettlementGrowth",
+          "tag_description": "定居点发展系统的情感连接和深度",
+          "sentiment_score": 0.8,
+          "sentiment_label": "Positive",
+          "volume": 252,
+          "trend": 1.15,
+          "tgi": 1.25,
+          "sample_comment": "定居点发展系统有情感连接，让玩家更投入。"
+        },
+        {
+          "tag_name": "#CharacterArcs",
+          "tag_description": "角色成长轨迹和发展的写作质量",
+          "sentiment_score": 0.78,
+          "sentiment_label": "Positive",
+          "volume": 215,
+          "trend": 1.08,
+          "tgi": 1.18,
+          "sample_comment": "主要角色成长轨迹写得很好，有深度。"
+        }
+      ],
+      "risk": [
+        {
+          "tag_name": "#QuestBugs",
+          "tag_description": "任务bug和触发问题",
+          "sentiment_score": 0.25,
+          "sentiment_label": "Negative",
+          "volume": 165,
+          "trend": 0.82,
+          "tgi": 1.12,
+          "sample_comment": "部分支线任务存在触发问题，无法完成。"
+        },
+        {
+          "tag_name": "#AnimationGlitches",
+          "tag_description": "动画错误和角色移动异常",
+          "sentiment_score": 0.3,
+          "sentiment_label": "Negative",
+          "volume": 134,
+          "trend": 0.75,
+          "tgi": 0.95,
+          "sample_comment": "一些动画不自然，角色有时会卡在环境中。"
+        },
+        {
+          "tag_name": "#LongLoadingScreens",
+          "tag_description": "加载时间过长影响游戏流畅性",
+          "sentiment_score": 0.25,
+          "sentiment_label": "Negative",
+          "volume": 196,
+          "trend": 0.88,
+          "tgi": 1.22,
+          "sample_comment": "读取画面时间过长，影响游戏流畅性。"
+        }
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "game": "Skull and Bones",
+    "tag_details": {
+      "ux": [
+        {
+          "tag_name": "#NavalCombat",
+          "tag_description": "海战系统的深度和船只操控感",
+          "sentiment_score": 0.82,
+          "sentiment_label": "Positive",
+          "volume": 287,
+          "trend": 1.28,
+          "tgi": 1.45,
+          "sample_comment": "海战系统有深度，船只操控感很强。"
+        },
+        {
+          "tag_name": "#ProgressionPacing",
+          "tag_description": "游戏进程节奏和内容重复性评价",
+          "sentiment_score": 0.35,
+          "sentiment_label": "Negative",
+          "volume": 195,
+          "trend": 0.88,
+          "tgi": 1.05,
+          "sample_comment": "游戏进程节奏较慢，前期内容重复性高。"
+        },
+        {
+          "tag_name": "#CustomizationOptions",
+          "tag_description": "船只和角色定制系统的丰富度",
+          "sentiment_score": 0.78,
+          "sentiment_label": "Positive",
+          "volume": 234,
+          "trend": 1.15,
+          "tgi": 1.28,
+          "sample_comment": "船只定制选项丰富，可以创造独特风格。"
+        }
+      ],
+      "story": [
+        {
+          "tag_name": "#PirateAtmosphere",
+          "tag_description": "海盗氛围和世界观构建的质量",
+          "sentiment_score": 0.85,
+          "sentiment_label": "Positive",
+          "volume": 248,
+          "trend": 1.12,
+          "tgi": 1.35,
+          "sample_comment": "海盗氛围营造得很到位，世界观丰富。"
+        },
+        {
+          "tag_name": "#FactionConflicts",
+          "tag_description": "派系冲突内容的深度和吸引力",
+          "sentiment_score": 0.4,
+          "sentiment_label": "Negative",
+          "volume": 187,
+          "trend": 0.92,
+          "tgi": 1.08,
+          "sample_comment": "各派系之间的冲突内容不够深入，缺乏吸引力。"
+        },
+        {
+          "tag_name": "#CharacterMotivation",
+          "tag_description": "角色动机和情感共鸣的表现",
+          "sentiment_score": 0.35,
+          "sentiment_label": "Negative",
+          "volume": 163,
+          "trend": 0.85,
+          "tgi": 0.95,
+          "sample_comment": "主角动机不够清晰，难以产生情感共鸣。"
+        }
+      ],
+      "risk": [
+        {
+          "tag_name": "#ServerStability",
+          "tag_description": "服务器稳定性和连接问题频率",
+          "sentiment_score": 0.25,
+          "sentiment_label": "Negative",
+          "volume": 276,
+          "trend": 1.18,
+          "tgi": 1.45,
+          "sample_comment": "服务器不稳定，高峰期经常掉线。"
+        },
+        {
+          "tag_name": "#ContentDrought",
+          "tag_description": "游戏内容更新速度和玩家留存",
+          "sentiment_score": 0.2,
+          "sentiment_label": "Negative",
+          "volume": 219,
+          "trend": 1.25,
+          "tgi": 1.32,
+          "sample_comment": "游戏内容更新速度慢，玩家流失严重。"
+        },
+        {
+          "tag_name": "#PricingModel",
+          "tag_description": "游戏定价模式和内容价值比评价",
+          "sentiment_score": 0.15,
+          "sentiment_label": "Negative",
+          "volume": 254,
+          "trend": 1.35,
+          "tgi": 1.48,
+          "sample_comment": "游戏价格与内容量不成正比，价值感低。"
+        }
+      ]
+    }
+  },
+  {
+    "id": 7,
+    "game": "Tom Clancy's The Division 2",
+    "tag_details": {
+      "ux": [
+        {
+          "tag_name": "#CoverSystem",
+          "tag_description": "掩体系统的响应性和战术选择",
+          "sentiment_score": 0.85,
+          "sentiment_label": "Positive",
+          "volume": 235,
+          "trend": 1.05,
+          "tgi": 1.25,
+          "sample_comment": "掩体系统反应灵敏，战术性强。"
+        },
+        {
+          "tag_name": "#LootFeedback",
+          "tag_description": "战利品获取反馈的清晰度和直观性",
+          "sentiment_score": 0.8,
+          "sentiment_label": "Positive",
+          "volume": 198,
+          "trend": 0.95,
+          "tgi": 1.15,
+          "sample_comment": "战利品获取反馈明确，颜色编码直观。"
+        },
+        {
+          "tag_name": "#EndgameLoop",
+          "tag_description": "游戏后期循环内容的变化和持久性",
+          "sentiment_score": 0.35,
+          "sentiment_label": "Negative",
+          "volume": 276,
+          "trend": 1.15,
+          "tgi": 1.38,
+          "sample_comment": "游戏后期循环缺乏变化，容易产生疲劳感。"
+        }
+      ],
+      "story": [
+        {
+          "tag_name": "#WorldBuilding",
+          "tag_description": "世界构建和环境讲述的细节丰富度",
+          "sentiment_score": 0.82,
+          "sentiment_label": "Positive",
+          "volume": 245,
+          "trend": 1.08,
+          "tgi": 1.32,
+          "sample_comment": "后启示录华盛顿的世界构建细节丰富。"
+        },
+        {
+          "tag_name": "#ECHORecordings",
+          "tag_description": "ECHO记录的背景故事质量和吸引力",
+          "sentiment_score": 0.78,
+          "sentiment_label": "Positive",
+          "volume": 187,
+          "trend": 0.95,
+          "tgi": 1.12,
+          "sample_comment": "ECHO记录提供了引人入胜的背景故事。"
+        },
+        {
+          "tag_name": "#FactionIdentity",
+          "tag_description": "派系特色和动机设计的合理性",
+          "sentiment_score": 0.75,
+          "sentiment_label": "Positive",
+          "volume": 203,
+          "trend": 1.02,
+          "tgi": 1.18,
+          "sample_comment": "各敌对派系有鲜明特色，动机合理。"
+        }
+      ],
+      "risk": [
+        {
+          "tag_name": "#BalancePatches",
+          "tag_description": "平衡性调整频率对游戏构建的影响",
+          "sentiment_score": 0.35,
+          "sentiment_label": "Negative",
+          "volume": 219,
+          "trend": 1.15,
+          "tgi": 1.28,
+          "sample_comment": "平衡性调整频繁，导致构建失效。"
+        },
+        {
+          "tag_name": "#DarkZoneGriefers",
+          "tag_description": "黑暗区域中玩家行为对游戏体验的影响",
+          "sentiment_score": 0.2,
+          "sentiment_label": "Negative",
+          "volume": 265,
+          "trend": 1.25,
+          "tgi": 1.42,
+          "sample_comment": "黑暗区域中的恶意玩家破坏游戏体验。"
+        },
+        {
+          "tag_name": "#SpecializationBugs",
+          "tag_description": "专精技能机制问题和运作异常",
+          "sentiment_score": 0.3,
+          "sentiment_label": "Negative",
+          "volume": 138,
+          "trend": 0.82,
+          "tgi": 0.95,
+          "sample_comment": "某些专精技能不按预期工作，影响游戏体验。"
+        }
+      ]
+    }
+  },
+  {
+    "id": 8,
+    "game": "Riders Republic",
+    "tag_details": {
+      "ux": [
+        {
+          "tag_name": "#ControlSchemes",
+          "tag_description": "不同运动项目的控制方案切换直观性",
+          "sentiment_score": 0.4,
+          "sentiment_label": "Negative",
+          "volume": 212,
+          "trend": 0.92,
+          "tgi": 1.15,
+          "sample_comment": "不同运动项目的控制方案切换不够直观。"
+        },
+        {
+          "tag_name": "#SocialHub",
+          "tag_description": "社交中心的设计和功能整合度",
+          "sentiment_score": 0.35,
+          "sentiment_label": "Negative",
+          "volume": 184,
+          "trend": 0.88,
+          "tgi": 1.05,
+          "sample_comment": "社交中心设计混乱，功能分散在多个菜单中。"
+        },
+        {
+          "tag_name": "#TrickSystem",
+          "tag_description": "特技系统的反应灵敏度和学习曲线",
+          "sentiment_score": 0.75,
+          "sentiment_label": "Positive",
+          "volume": 249,
+          "trend": 1.12,
+          "tgi": 1.32,
+          "sample_comment": "特技系统反应灵敏，容易上手难以精通。"
+        }
+      ],
+      "story": [
+        {
+          "tag_name": "#CareerProgression",
+          "tag_description": "职业生涯模式的故事深度和情感连接",
+          "sentiment_score": 0.4,
+          "sentiment_label": "Negative",
+          "volume": 178,
+          "trend": 0.85,
+          "tgi": 1.08,
+          "sample_comment": "职业生涯模式故事性不足，缺乏情感连接。"
+        },
+        {
+          "tag_name": "#CharacterDialogue",
+          "tag_description": "角色对话的真实性和氛围匹配度",
+          "sentiment_score": 0.35,
+          "sentiment_label": "Negative",
+          "volume": 156,
+          "trend": 0.78,
+          "tgi": 0.95,
+          "sample_comment": "角色对话过于夸张，不符合真实极限运动氛围。"
+        },
+        {
+          "tag_name": "#EventNarratives",
+          "tag_description": "赛事背景故事的趣味性和参与动力",
+          "sentiment_score": 0.7,
+          "sentiment_label": "Positive",
+          "volume": 143,
+          "trend": 0.92,
+          "tgi": 0.88,
+          "sample_comment": "赛事的背景故事有趣，增加了参与动力。"
+        }
+      ],
+      "risk": [
+        {
+          "tag_name": "#CollisionDetection",
+          "tag_description": "碰撞检测问题和物理引擎准确性",
+          "sentiment_score": 0.25,
+          "sentiment_label": "Negative",
+          "volume": 223,
+          "trend": 1.05,
+          "tgi": 1.28,
+          "sample_comment": "碰撞检测有问题，有时会穿过物体或卡住。"
+        },
+        {
+          "tag_name": "#PopulationDensity",
+          "tag_description": "服务器人口数量和世界活跃度",
+          "sentiment_score": 0.3,
+          "sentiment_label": "Negative",
+          "volume": 167,
+          "trend": 0.95,
+          "tgi": 1.12,
+          "sample_comment": "服务器人口不足，开放世界显得空旷。"
+        },
+        {
+          "tag_name": "#CrossplayIssues",
+          "tag_description": "跨平台游戏的技术问题和兼容性",
+          "sentiment_score": 0.35,
+          "sentiment_label": "Negative",
+          "volume": 142,
+          "trend": 0.85,
+          "tgi": 1.05,
+          "sample_comment": "跨平台游戏时出现延迟和同步问题。"
+        }
+      ]
+    }
+  },
+  {
+    "id": 9,
+    "game": "Mario + Rabbids Sparks of Hope",
+    "tag_details": {
+      "ux": [
+        {
+          "tag_name": "#BattleControls",
+          "tag_description": "战斗控制的直观性和策略深度",
+          "sentiment_score": 0.85,
+          "sentiment_label": "Positive",
+          "volume": 198,
+          "trend": 1.05,
+          "tgi": 1.18,
+          "sample_comment": "战斗控制直观，策略性强又不失趣味。"
+        },
+        {
+          "tag_name": "#ExplorationRewards",
+          "tag_description": "探索奖励的丰富度和探索动力",
+          "sentiment_score": 0.82,
+          "sentiment_label": "Positive",
+          "volume": 175,
+          "trend": 0.98,
+          "tgi": 1.12,
+          "sample_comment": "探索奖励丰富，鼓励玩家彻底探索每个区域。"
+        },
+        {
+          "tag_name": "#MenuNavigation",
+          "tag_description": "菜单导航和技能装备管理的简洁性",
+          "sentiment_score": 0.78,
+          "sentiment_label": "Positive",
+          "volume": 143,
+          "trend": 0.92,
+          "tgi": 0.95,
+          "sample_comment": "菜单导航流畅，技能和装备管理简洁明了。"
+        }
+      ],
+      "story": [
+        {
+          "tag_name": "#CharacterChemistry",
+          "tag_description": "角色互动的喜剧效果和化学反应",
+          "sentiment_score": 0.88,
+          "sentiment_label": "Positive",
+          "volume": 234,
+          "trend": 1.15,
+          "tgi": 1.32,
+          "sample_comment": "马里奥和疯狂兔子的互动充满喜剧效果。"
+        },
+        {
+          "tag_name": "#WorldVariety",
+          "tag_description": "各星球视觉风格和故事主题的多样性",
+          "sentiment_score": 0.85,
+          "sentiment_label": "Positive",
+          "volume": 187,
+          "trend": 1.08,
+          "tgi": 1.15,
+          "sample_comment": "每个星球都有独特的视觉风格和故事主题。"
+        },
+        {
+          "tag_name": "#HumorQuality",
+          "tag_description": "游戏幽默感和各年龄段适应性",
+          "sentiment_score": 0.82,
+          "sentiment_label": "Positive",
+          "volume": 215,
+          "trend": 1.12,
+          "tgi": 1.25,
+          "sample_comment": "游戏幽默感很强，适合各年龄段玩家。"
+        }
         ],
         "risk": [
             {
-            "tag": "#BugReport",
-            "volume": 100,
-            "sample_comment": "Some players experienced crashes."
+          "tag_name": "#PerformanceDips",
+          "tag_description": "复杂场景中的性能下降和帧率问题",
+          "sentiment_score": 0.35,
+          "sentiment_label": "Negative",
+          "volume": 156,
+          "trend": 0.92,
+          "tgi": 1.05,
+          "sample_comment": "在某些复杂场景中会出现明显掉帧。"
+        },
+        {
+          "tag_name": "#LoadingFrequency",
+          "tag_description": "区域间加载频率对游戏流畅性的影响",
+          "sentiment_score": 0.3,
+          "sentiment_label": "Negative",
+          "volume": 134,
+          "trend": 0.85,
+          "tgi": 0.92,
+          "sample_comment": "区域之间加载次数过多，破坏游戏流畅性。"
+        },
+        {
+          "tag_name": "#DifficultySpikes",
+          "tag_description": "游戏难度平衡性和难度曲线设计",
+          "sentiment_score": 0.4,
+          "sentiment_label": "Negative",
+          "volume": 178,
+          "trend": 0.98,
+          "tgi": 1.15,
+          "sample_comment": "游戏难度忽高忽低，不够平衡。"
+        }
+      ]
+    }
+  },
+  {
+    "id": 10,
+    "game": "Prince of Persia: The Lost Crown",
+    "tag_details": {
+      "ux": [
+        {
+          "tag_name": "#MovementFluidity",
+          "tag_description": "角色移动流畅度和平台跳跃精准性",
+          "sentiment_score": 0.88,
+          "sentiment_label": "Positive",
+          "volume": 287,
+          "trend": 1.25,
+          "tgi": 1.42,
+          "sample_comment": "角色移动流畅，平台跳跃感觉精准。"
+        },
+        {
+          "tag_name": "#CombatResponsiveness",
+          "tag_description": "战斗系统反应灵敏度和招式连贯性",
+          "sentiment_score": 0.85,
+          "sentiment_label": "Positive",
+          "volume": 253,
+          "trend": 1.18,
+          "tgi": 1.35,
+          "sample_comment": "战斗系统反应灵敏，招式连贯。"
+        },
+        {
+          "tag_name": "#MapDesign",
+          "tag_description": "地图设计的层次感和导航功能",
+          "sentiment_score": 0.65,
+          "sentiment_label": "Mixed",
+          "volume": 198,
+          "trend": 1.05,
+          "tgi": 1.15,
+          "sample_comment": "地图设计有层次感，但导航功能可以改进。"
+        }
+      ],
+      "story": [
+        {
+          "tag_name": "#TimeManipulation",
+          "tag_description": "时间操控元素融入故事的巧妙程度",
+          "sentiment_score": 0.85,
+          "sentiment_label": "Positive",
+          "volume": 245,
+          "trend": 1.18,
+          "tgi": 1.32,
+          "sample_comment": "时间操控元素融入故事的方式很巧妙。"
+        },
+        {
+          "tag_name": "#PersianMythology",
+          "tag_description": "波斯神话元素运用和故事深度增强",
+          "sentiment_score": 0.82,
+          "sentiment_label": "Positive",
+          "volume": 212,
+          "trend": 1.12,
+          "tgi": 1.25,
+          "sample_comment": "波斯神话元素运用得当，增添了故事深度。"
+        },
+        {
+          "tag_name": "#CharacterDevelopment",
+          "tag_description": "主角成长历程和变化自然程度",
+          "sentiment_score": 0.78,
+          "sentiment_label": "Positive",
+          "volume": 187,
+          "trend": 1.05,
+          "tgi": 1.18,
+          "sample_comment": "主角成长历程写得很好，变化自然。"
+        }
+      ],
+      "risk": [
+        {
+          "tag_name": "#CheckpointPlacement",
+          "tag_description": "检查点放置合理性和死亡惩罚",
+          "sentiment_score": 0.35,
+          "sentiment_label": "Negative",
+          "volume": 167,
+          "trend": 0.92,
+          "tgi": 1.08,
+          "sample_comment": "某些检查点放置不合理，死亡后需要重复较长路程。"
+        },
+        {
+          "tag_name": "#AbilityGlitches",
+          "tag_description": "特殊能力运作异常和连续使用问题",
+          "sentiment_score": 0.3,
+          "sentiment_label": "Negative",
+          "volume": 134,
+          "trend": 0.85,
+          "tgi": 0.95,
+          "sample_comment": "某些特殊能力偶尔会失效，尤其是在连续使用时。"
+        },
+        {
+          "tag_name": "#AudioSyncIssues",
+          "tag_description": "游戏音频与画面同步问题",
+          "sentiment_score": 0.35,
+          "sentiment_label": "Negative",
+          "volume": 123,
+          "trend": 0.82,
+          "tgi": 0.88,
+          "sample_comment": "游戏音频有时会与画面不同步，尤其是过场动画中。"
             }
         ]
         }

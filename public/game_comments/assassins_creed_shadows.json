@@ -1,0 +1,402 @@
+[
+  {
+    "user": "夜空刃影",
+    "avatar": "https://randomuser.me/api/portraits/men/32.jpg",
+    "game": "Assassin's Creed Shadows",
+    "platform": "Steam",
+    "publish_at": "2025-01-12",
+    "rating": 4,
+    "content": "《刺客信条：暗影》的日本幕府时代背景真是太棒了，作为一个历史爱好者，游戏中的历史细节处理得相当到位。神社、城堡和乡村的场景还原很用心，能感受到制作组做了充分的调研。不过游戏加载时间确实有些长，每次快速旅行都要等上好一会儿，希望未来的补丁能优化一下。尽管如此，游戏的剧情发展和角色塑造还是很值得称赞的。",
+    "tag_details": {
+      "story": [
+        {
+          "tag_name": "#HistoricalAccuracy",
+          "sentiment_score": 0.85,
+          "sentiment_label": "Positive",
+          "keywords": ["历史细节", "幕府时代", "神社"]
+        }
+      ],
+      "ux": [
+        {
+          "tag_name": "#LoadingTime",
+          "sentiment_score": 0.3,
+          "sentiment_label": "Negative",
+          "keywords": ["加载时间", "快速旅行", "等待"]
+        }
+      ]
+    }
+  },
+  {
+    "user": "武士刀客",
+    "avatar": "https://randomuser.me/api/portraits/men/45.jpg",
+    "game": "Assassin's Creed Shadows",
+    "platform": "Steam",
+    "publish_at": "2025-02-18",
+    "rating": 5,
+    "content": "双主角系统是这部作品最大的亮点！忍者和武士的玩法差异很大，让游戏体验非常丰富。战斗系统精心设计，尤其是武士的正面对决感觉相当爽快。游戏地图UI很清晰，任务标记一目了然。剧情中有几个转折点真的出乎我的意料，但又感觉合情合理，人物的动机塑造也很到位。唯一遗憾的是在人群密集场景下，帧率会明显下降，希望官方后续能进一步优化性能。",
+    "tag_details": {
+      "story": [
+        {
+          "tag_name": "#CharacterDepth",
+          "sentiment_score": 0.82,
+          "sentiment_label": "Positive",
+          "keywords": ["人物动机", "角色塑造", "双主角"]
+        },
+        {
+          "tag_name": "#PlotTwists",
+          "sentiment_score": 0.78,
+          "sentiment_label": "Positive",
+          "keywords": ["剧情转折", "出人意料", "合情合理"]
+        }
+      ],
+      "ux": [
+        {
+          "tag_name": "#UIClarity",
+          "sentiment_score": 0.75,
+          "sentiment_label": "Positive",
+          "keywords": ["UI清晰", "任务标记", "地图"]
+        }
+      ],
+      "risk": [
+        {
+          "tag_name": "#PerformanceDrops",
+          "sentiment_score": 0.35,
+          "sentiment_label": "Negative",
+          "keywords": ["帧率下降", "人群密集", "性能优化"]
+        }
+      ]
+    }
+  },
+  {
+    "user": "江户浪人",
+    "avatar": "https://randomuser.me/api/portraits/men/21.jpg",
+    "game": "Assassin's Creed Shadows",
+    "platform": "Steam",
+    "publish_at": "2025-01-05",
+    "rating": 3,
+    "content": "作为系列粉丝，对这部作品有些失望。虽然日本幕府背景很吸引人，但操作手感不够流畅，特别是攀爬时角色反应迟钝，有时会错过目标点。我遇到几个任务无法触发的bug，不得不重启游戏。剧情本身不错，角色塑造挺立体，但游戏技术层面的问题影响了整体体验。不过我仍然认为主角的背景故事写得很好，特别是关于他们如何成为刺客的部分。",
+    "tag_details": {
+      "story": [
+        {
+          "tag_name": "#CharacterDepth",
+          "sentiment_score": 0.75,
+          "sentiment_label": "Positive",
+          "keywords": ["背景故事", "角色塑造", "刺客身份"]
+        }
+      ],
+      "ux": [
+        {
+          "tag_name": "#ControlsResponsiveness",
+          "sentiment_score": 0.25,
+          "sentiment_label": "Negative",
+          "keywords": ["操作手感", "反应迟钝", "攀爬"]
+        }
+      ],
+      "risk": [
+        {
+          "tag_name": "#ProgressionIssue",
+          "sentiment_score": 0.2,
+          "sentiment_label": "Negative",
+          "keywords": ["任务触发", "bug", "重启游戏"]
+        }
+      ]
+    }
+  },
+  {
+    "user": "樱花刺客",
+    "avatar": "https://randomuser.me/api/portraits/women/33.jpg",
+    "game": "Assassin's Creed Shadows",
+    "platform": "Steam",
+    "publish_at": "2025-03-02",
+    "rating": 5,
+    "content": "《刺客信条：暗影》的游戏世界实在太美了！每一个场景都像一幅日本浮世绘，从繁华的江户到宁静的乡村神社，美术设计堪称完美。游戏UI设计很直观，任务和收集品标记清晰明了。角色的动机和背景故事非常丰富，能感受到编剧的用心。剧情中有几个转折令人惊喜，尤其是关于主角身世的揭示非常精彩。游戏流畅度总体还行，只是在某些大型战斗场景会有轻微掉帧。",
+    "tag_details": {
+      "story": [
+        {
+          "tag_name": "#CharacterDepth",
+          "sentiment_score": 0.85,
+          "sentiment_label": "Positive",
+          "keywords": ["角色动机", "背景故事", "身世揭示"]
+        },
+        {
+          "tag_name": "#PlotTwists",
+          "sentiment_score": 0.82,
+          "sentiment_label": "Positive",
+          "keywords": ["剧情转折", "惊喜", "精彩"]
+        }
+      ],
+      "ux": [
+        {
+          "tag_name": "#UIClarity",
+          "sentiment_score": 0.8,
+          "sentiment_label": "Positive",
+          "keywords": ["UI设计", "任务标记", "直观"]
+        }
+      ],
+      "risk": [
+        {
+          "tag_name": "#PerformanceDrops",
+          "sentiment_score": 0.45,
+          "sentiment_label": "Negative",
+          "keywords": ["掉帧", "战斗场景", "流畅度"]
+        }
+      ]
+    }
+  },
+  {
+    "user": "忍道传人",
+    "avatar": "https://randomuser.me/api/portraits/men/67.jpg",
+    "game": "Assassin's Creed Shadows",
+    "platform": "Steam",
+    "publish_at": "2025-02-25",
+    "rating": 2,
+    "content": "太失望了，游戏充斥着各种技术问题。我的游戏在20小时内崩溃了4次，丢失了不少进度。加载时间长得离谱，从一个区域到另一个区域需要等待近一分钟。控制也有问题，潜行时角色经常不按预期行动，导致被敌人发现。这些问题严重影响了游戏体验，虽然剧情和场景设计不错，但技术问题实在太多。希望育碧能尽快修复这些问题，否则这将是系列中最令人失望的作品之一。",
+    "tag_details": {
+      "ux": [
+        {
+          "tag_name": "#LoadingTime",
+          "sentiment_score": 0.1,
+          "sentiment_label": "Negative",
+          "keywords": ["加载时间", "等待", "区域切换"]
+        },
+        {
+          "tag_name": "#ControlsResponsiveness",
+          "sentiment_score": 0.2,
+          "sentiment_label": "Negative",
+          "keywords": ["控制问题", "潜行", "不按预期"]
+        }
+      ],
+      "risk": [
+        {
+          "tag_name": "#BugReport",
+          "sentiment_score": 0.15,
+          "sentiment_label": "Negative",
+          "keywords": ["游戏崩溃", "丢失进度", "技术问题"]
+        }
+      ]
+    }
+  },
+  {
+    "user": "幕府将军",
+    "avatar": "https://randomuser.me/api/portraits/men/52.jpg",
+    "game": "Assassin's Creed Shadows",
+    "platform": "Steam",
+    "publish_at": "2025-04-15",
+    "rating": 4,
+    "content": "整体来说是一部优秀的作品。游戏的历史背景研究很充分，日本幕府时代的环境、服装和武器都还原得相当准确。双主角系统带来了丰富的游戏体验，武士的正面战斗和忍者的潜行刺杀各有特色。剧情发展紧凑，有几个转折设计得很巧妙。不过游戏确实存在一些技术问题，比如偶尔会遇到任务无法触发需要重载，还有就是在复杂场景下会有明显的性能下降。希望后续补丁能解决这些问题。",
+    "tag_details": {
+      "story": [
+        {
+          "tag_name": "#HistoricalAccuracy",
+          "sentiment_score": 0.85,
+          "sentiment_label": "Positive",
+          "keywords": ["历史背景", "幕府时代", "还原准确"]
+        },
+        {
+          "tag_name": "#PlotTwists",
+          "sentiment_score": 0.8,
+          "sentiment_label": "Positive",
+          "keywords": ["剧情转折", "巧妙", "紧凑"]
+        }
+      ],
+      "risk": [
+        {
+          "tag_name": "#ProgressionIssue",
+          "sentiment_score": 0.3,
+          "sentiment_label": "Negative",
+          "keywords": ["任务触发", "重载", "技术问题"]
+        },
+        {
+          "tag_name": "#PerformanceDrops",
+          "sentiment_score": 0.25,
+          "sentiment_label": "Negative",
+          "keywords": ["性能下降", "复杂场景", "补丁修复"]
+        }
+      ]
+    }
+  },
+  {
+    "user": "月影随行",
+    "avatar": "https://randomuser.me/api/portraits/women/28.jpg",
+    "game": "Assassin's Creed Shadows",
+    "platform": "Steam",
+    "publish_at": "2025-05-10",
+    "rating": 5,
+    "content": "我被这个游戏的剧情深深吸引了！主角们的背景故事非常丰富，他们的动机和行为都很合理。我特别喜欢游戏中日本神话元素的融入，这为历史背景增添了一层神秘色彩。游戏UI设计清晰明了，即使是新手也能快速上手。战斗系统流畅，特别是忍者的隐蔽刺杀非常有成就感。唯一的缺点是加载时间有点长，特别是在快速旅行时需要等待较久。总体而言，这是一部值得一玩的优秀作品！",
+    "tag_details": {
+      "story": [
+        {
+          "tag_name": "#CharacterDepth",
+          "sentiment_score": 0.9,
+          "sentiment_label": "Positive",
+          "keywords": ["背景故事", "动机", "合理"]
+        },
+        {
+          "tag_name": "#HistoricalAccuracy",
+          "sentiment_score": 0.85,
+          "sentiment_label": "Positive",
+          "keywords": ["日本神话", "历史背景", "神秘色彩"]
+        }
+      ],
+      "ux": [
+        {
+          "tag_name": "#UIClarity",
+          "sentiment_score": 0.85,
+          "sentiment_label": "Positive",
+          "keywords": ["UI设计", "清晰明了", "快速上手"]
+        },
+        {
+          "tag_name": "#LoadingTime",
+          "sentiment_score": 0.4,
+          "sentiment_label": "Negative",
+          "keywords": ["加载时间", "快速旅行", "等待"]
+        }
+      ]
+    }
+  },
+  {
+    "user": "刃光如影",
+    "avatar": "https://randomuser.me/api/portraits/men/38.jpg",
+    "game": "Assassin's Creed Shadows",
+    "platform": "Steam",
+    "publish_at": "2025-03-28",
+    "rating": 3,
+    "content": "这部作品褒贬参半。优点是剧情扎实，角色塑造得当，日本幕府背景也很吸引人。但技术问题实在太多，大大影响了游戏体验。我遇到了多次游戏崩溃，几个任务触发问题导致必须重新加载。控制手感也不够精准，尤其是在高速移动和攀爬时。另外，在人群密集区域帧率明显下降，画面会变得卡顿。希望官方能尽快修复这些问题，否则很难推荐给其他玩家。",
+    "tag_details": {
+      "story": [
+        {
+          "tag_name": "#CharacterDepth",
+          "sentiment_score": 0.75,
+          "sentiment_label": "Positive",
+          "keywords": ["剧情扎实", "角色塑造", "幕府背景"]
+        },
+        {
+          "tag_name": "#HistoricalAccuracy",
+          "sentiment_score": 0.8,
+          "sentiment_label": "Positive",
+          "keywords": ["日本幕府", "历史背景", "吸引人"]
+        }
+      ],
+      "ux": [
+        {
+          "tag_name": "#ControlsResponsiveness",
+          "sentiment_score": 0.3,
+          "sentiment_label": "Negative",
+          "keywords": ["控制手感", "精准度", "攀爬"]
+        }
+      ],
+      "risk": [
+        {
+          "tag_name": "#BugReport",
+          "sentiment_score": 0.15,
+          "sentiment_label": "Negative",
+          "keywords": ["游戏崩溃", "技术问题", "修复"]
+        },
+        {
+          "tag_name": "#ProgressionIssue",
+          "sentiment_score": 0.2,
+          "sentiment_label": "Negative",
+          "keywords": ["任务触发", "重新加载", "体验影响"]
+        },
+        {
+          "tag_name": "#PerformanceDrops",
+          "sentiment_score": 0.25,
+          "sentiment_label": "Negative",
+          "keywords": ["帧率下降", "人群密集", "卡顿"]
+        }
+      ]
+    }
+  },
+  {
+    "user": "刀光斩月",
+    "avatar": "https://randomuser.me/api/portraits/men/41.jpg",
+    "game": "Assassin's Creed Shadows",
+    "platform": "Steam",
+    "publish_at": "2025-01-30",
+    "rating": 4,
+    "content": "总体来说是一款不错的游戏，但还有提升空间。我非常喜欢游戏中的历史背景，日本幕府时代的城市和乡村场景还原得相当精确。主角的背景故事很丰富，随着剧情推进不断有新的细节被揭露，让人印象深刻。游戏界面设计得简洁明了，任务标记和地图显示都很清晰。但操作手感有时不够精准，特别是在需要快速反应的战斗中。加载时间也有点长，希望后续更新能改善。",
+    "tag_details": {
+      "story": [
+        {
+          "tag_name": "#CharacterDepth",
+          "sentiment_score": 0.82,
+          "sentiment_label": "Positive",
+          "keywords": ["背景故事", "细节揭露", "印象深刻"]
+        },
+        {
+          "tag_name": "#HistoricalAccuracy",
+          "sentiment_score": 0.85,
+          "sentiment_label": "Positive",
+          "keywords": ["历史背景", "幕府时代", "精确还原"]
+        }
+      ],
+      "ux": [
+        {
+          "tag_name": "#UIClarity",
+          "sentiment_score": 0.8,
+          "sentiment_label": "Positive",
+          "keywords": ["界面设计", "任务标记", "清晰"]
+        },
+        {
+          "tag_name": "#ControlsResponsiveness",
+          "sentiment_score": 0.45,
+          "sentiment_label": "Negative",
+          "keywords": ["操作手感", "精准度", "战斗反应"]
+        },
+        {
+          "tag_name": "#LoadingTime",
+          "sentiment_score": 0.4,
+          "sentiment_label": "Negative",
+          "keywords": ["加载时间", "更新改善", "等待"]
+        }
+      ]
+    }
+  },
+  {
+    "user": "雪中刺客",
+    "avatar": "https://randomuser.me/api/portraits/women/42.jpg",
+    "game": "Assassin's Creed Shadows",
+    "platform": "Steam",
+    "publish_at": "2025-04-05",
+    "rating": 5,
+    "content": "作为系列粉丝，我觉得这是近年来最好的刺客信条！日本背景绝对是点睛之笔，幕府时代的场景刻画得栩栩如生。双主角设定带来了多样化的游戏体验，忍者的潜行和武士的正面对决各有特色。剧情中的转折设计得很到位，几次都出乎我的意料。角色们的背景故事也很丰富立体，让人感同身受。游戏UI直观易用，新手也能快速上手。虽然偶尔会有些小bug，但不影响整体体验。强烈推荐给所有动作冒险游戏爱好者！",
+    "tag_details": {
+      "story": [
+        {
+          "tag_name": "#CharacterDepth",
+          "sentiment_score": 0.9,
+          "sentiment_label": "Positive",
+          "keywords": ["背景故事", "立体", "感同身受"]
+        },
+        {
+          "tag_name": "#PlotTwists",
+          "sentiment_score": 0.85,
+          "sentiment_label": "Positive",
+          "keywords": ["剧情转折", "出人意料", "设计到位"]
+        },
+        {
+          "tag_name": "#HistoricalAccuracy",
+          "sentiment_score": 0.9,
+          "sentiment_label": "Positive",
+          "keywords": ["日本背景", "幕府时代", "栩栩如生"]
+        }
+      ],
+      "ux": [
+        {
+          "tag_name": "#UIClarity",
+          "sentiment_score": 0.85,
+          "sentiment_label": "Positive",
+          "keywords": ["UI直观", "易用", "新手友好"]
+        }
+      ],
+      "risk": [
+        {
+          "tag_name": "#BugReport",
+          "sentiment_score": 0.6,
+          "sentiment_label": "Mixed",
+          "keywords": ["小bug", "不影响体验", "偶尔出现"]
+        }
+      ]
+    }
+  }
+] 
